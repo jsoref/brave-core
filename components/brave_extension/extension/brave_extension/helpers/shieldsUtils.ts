@@ -2,7 +2,7 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-import { Tab } from '../types/state/shieldsPannelState'
+import { Tab } from '../types/state/shieldsPanelState'
 import { BlockOptions } from '../types/other/blockTypes'
 import { getLocale } from '../background/api/localeAPI'
 
@@ -62,8 +62,8 @@ export const getToggleStateViaEventTarget = (event: React.ChangeEvent<HTMLInputE
   return event.target.checked ? 'allow' : 'block'
 }
 
-export const maybeBlockResource = (resouce: BlockOptions) => {
-  return resouce !== 'allow'
+export const maybeBlockResource = (resource: BlockOptions) => {
+  return resource !== 'allow'
 }
 
 export const shouldDisableResourcesRow = (resource: number) => {

@@ -11,7 +11,7 @@ import * as windowTypes from '../../constants/windowTypes'
 import * as tabTypes from '../../constants/tabTypes'
 import * as settingsTypes from '../../constants/settingsTypes'
 import * as webNavigationTypes from '../../constants/webNavigationTypes'
-import { State, PersistentData } from '../../types/state/shieldsPannelState'
+import { State, PersistentData } from '../../types/state/shieldsPanelState'
 import { Actions } from '../../types/actions/index'
 import { SettingsData } from '../../types/other/settingsTypes'
 
@@ -312,7 +312,7 @@ export default function shieldsPanelReducer (
     // ....................................................................................
     // `actuallyBlocked`:
     // ....................................................................................
-    // When set to `true` it blocks the script immediatelly. This is the initial state
+    // When set to `true` it blocks the script immediately. This is the initial state
     // when the user toggle scripts blocked in the main panel screen and also the initial state
     // for when users toggle `block/allow` or `block all/allow all`
     // ....................................................................................

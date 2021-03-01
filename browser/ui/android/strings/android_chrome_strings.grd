@@ -996,7 +996,7 @@ Your Brave account may have other forms of browsing history like searches and ac
       <message name="IDS_SAFETY_CHECK_PASSWORDS_ERROR_OFFLINE" desc="Text to display when the password check has an unknown error.">
         Offline. Brave can’t check your passwords.
       </message>
-      <message name="IDS_SAFETY_CHECK_PASSWORDS_ERROR_SIGNED_OUT" desc="Text to display when the password check is unable to run because the usere is signed out.">
+      <message name="IDS_SAFETY_CHECK_PASSWORDS_ERROR_SIGNED_OUT" desc="Text to display when the password check is unable to run because the user is signed out.">
         Sign in to your Brave account to check your passwords
       </message>
       <message name="IDS_SAFETY_CHECK_PASSWORDS_ERROR_QUOTA_LIMIT" desc="Text to display when the password check hits the daily quota limit.">
@@ -1155,7 +1155,7 @@ Your Brave account may have other forms of browsing history like searches and ac
       <message name="IDS_APP_LANGUAGE_TITLE" desc="Title of Language settings section to change Brave’s user interface language. [CHAR-LIMIT=32]">
         <ph name="APP_NAME">%1$s<ex>Brave</ex></ph>’s language
       </message>
-      <message name="IDS_DEFAULT_LANG_SUBTITLE" desc="Subtite to use for the device’s default language. [CHAR-LIMIT=42]">
+      <message name="IDS_DEFAULT_LANG_SUBTITLE" desc="Subtitle to use for the device’s default language. [CHAR-LIMIT=42]">
         Default device language
       </message>
       <message name="IDS_ADD_LANGUAGE" desc="Title for the screen that allows users to add languages to their preferred language list. [CHAR-LIMIT=32]">
@@ -1170,7 +1170,7 @@ Your Brave account may have other forms of browsing history like searches and ac
       <message name="IDS_LANGUAGES_SELECT_SUGGESTED" desc="Title appearing above list of languages ordered based on what users in that country might select. [CHAR-LIMIT=32]">
         Suggested languages
       </message>
-      <message name="IDS_LANGUAGES_SELECT_OTHER" desc="Subtite appearing above list of all languages not likely to be selected by users in that country. [CHAR-LIMIT=32]">
+      <message name="IDS_LANGUAGES_SELECT_OTHER" desc="Subtitle appearing above list of all languages not likely to be selected by users in that country. [CHAR-LIMIT=32]">
         Other languages
       </message>
       <message name="IDS_LANGUAGES_CONTENT_TITLE" desc="Title of Language settings section to add or remove preferred content languages. Content languages are selected by the user and tell Brave what language the user prefers webpage content in.  [CHAR-LIMIT=32]">
@@ -1212,7 +1212,7 @@ Your Brave account may have other forms of browsing history like searches and ac
       <message name="IDS_LANGUAGES_SETTINGS_ADVANCED" desc="Title of Language settings section that will show advanced translation settings. [CHAR-LIMIT=32]">
         Advanced
       </message>
-      <message name="IDS_LANGUAGES_SETTINGS_TARGET" desc="Title of Translation settings for the current translate targert. Tapping this opens a new screen to select the target language.  [CHAR-LIMIT=32]">
+      <message name="IDS_LANGUAGES_SETTINGS_TARGET" desc="Title of Translation settings for the current translate target. Tapping this opens a new screen to select the target language.  [CHAR-LIMIT=32]">
         Translate into this language
       </message>
       <message name="IDS_LANGUAGES_SETTINGS_AUTOMATIC" desc="Title of Translation settings that lists languages that should be automatically translated.">
@@ -1552,7 +1552,7 @@ Your Brave account may have other forms of browsing history like searches and ac
       <message name="IDS_GOOGLE_TERMS_OF_SERVICE_URL" desc="URL for Brave terms of service" translateable="false">
         https://policies.google.com/terms/embedded
       </message>
-      <message name="IDS_CHROME_ADDITIONAL_TERMS_OF_SERVICE_TITLE" desc="Title for Brave and Chrome OS addtional terms of service">
+      <message name="IDS_CHROME_ADDITIONAL_TERMS_OF_SERVICE_TITLE" desc="Title for Brave and Chrome OS additional terms of service">
         Brave &amp; Chrome OS Additional Terms of Service
       </message>
       <message name="IDS_CHROME_ADDITIONAL_TERMS_OF_SERVICE_URL" desc="URL for Brave and Chrome OS additional terms of service" translateable="false">
@@ -1632,25 +1632,25 @@ Your Brave account may have other forms of browsing history like searches and ac
       <message name="IDS_SYNCING_CATEGORY" desc="Category to separate search and browse section with sync related data types. [CHAR-LIMT=32]">
         Syncing
       </message>
-      <message name="IDS_SYNC_EVERYTHING_PREF" desc="Title for preference which enables sync'ing of all data types. [CHAR-LIMT=32]">
+      <message name="IDS_SYNC_EVERYTHING_PREF" desc="Title for preference which enables syncing of all data types. [CHAR-LIMT=32]">
         Sync everything
       </message>
-      <message name="IDS_SYNC_AUTOFILL" desc="Title for preference which enables sync'ing of autofill. [CHAR-LIMT=32]">
+      <message name="IDS_SYNC_AUTOFILL" desc="Title for preference which enables syncing of autofill. [CHAR-LIMT=32]">
         Autofill
       </message>
-      <message name="IDS_SYNC_BOOKMARKS" desc="Title for preference which enables sync'ing of bookmarks. [CHAR-LIMT=32]">
+      <message name="IDS_SYNC_BOOKMARKS" desc="Title for preference which enables syncing of bookmarks. [CHAR-LIMT=32]">
         Bookmarks
       </message>
-      <message name="IDS_SYNC_HISTORY" desc="Title for preference which enables sync'ing of history data. [CHAR-LIMT=32]">
+      <message name="IDS_SYNC_HISTORY" desc="Title for preference which enables syncing of history data. [CHAR-LIMT=32]">
         History
       </message>
-      <message name="IDS_SYNC_PASSWORDS" desc="Title for preference which enables sync'ing of passwords. [CHAR-LIMT=32]">
+      <message name="IDS_SYNC_PASSWORDS" desc="Title for preference which enables syncing of passwords. [CHAR-LIMT=32]">
         Passwords
       </message>
-      <message name="IDS_SYNC_RECENT_TABS" desc="Title for preference which enables sync'ing of open tabs. [CHAR-LIMT=32]">
+      <message name="IDS_SYNC_RECENT_TABS" desc="Title for preference which enables syncing of open tabs. [CHAR-LIMT=32]">
         Open tabs
       </message>
-      <message name="IDS_SYNC_SETTINGS" desc="Title for preference which enables sync'ing of settings. [CHAR-LIMT=32]">
+      <message name="IDS_SYNC_SETTINGS" desc="Title for preference which enables syncing of settings. [CHAR-LIMT=32]">
         Settings
       </message>
       <message name="IDS_SYNC_PAYMENTS_INTEGRATION" desc="Title for preference which enables import of Brave Pay data for Autofill. 'Brave Pay' should not be translated as it is the product name.">
@@ -2039,7 +2039,7 @@ To change this setting, <ph name="BEGIN_LINK">&lt;resetlink&gt;</ph>reset sync<p
       <message name="IDS_PASSWORD_GENERATION_DIALOG_CANCEL_BUTTON" desc="Text for the cancel button belonging to the modal dialog that displays a generated password. Can be used by the user to cancel the password generation flow.">
         Cancel
       </message>
-      <message name="IDS_PASSWORD_GENERATION_DIALOG_USE_PASSWORD_BUTTON" desc="Text for a button belonging to the modal dialog that displayes a generated password. Can be used by the user to accept the generated password.">
+      <message name="IDS_PASSWORD_GENERATION_DIALOG_USE_PASSWORD_BUTTON" desc="Text for a button belonging to the modal dialog that displays a generated password. Can be used by the user to accept the generated password.">
         Use password
       </message>
 
@@ -2226,7 +2226,7 @@ To change this setting, <ph name="BEGIN_LINK">&lt;resetlink&gt;</ph>reset sync<p
         Install this app
       </message>
       <message name="IDS_PWA_INSTALL_BOTTOM_SHEET_CATEGORIES" desc="The content description for the bottom sheet install UI.">
-        Categories: <ph name="COMMA_SEPERATED_CATEGORY_LIST">%1$s<ex>cats, memes</ex></ph>.
+        Categories: <ph name="COMMA_SEPARATED_CATEGORY_LIST">%1$s<ex>cats, memes</ex></ph>.
       </message>
 
       <!-- Page info popup -->
@@ -2302,7 +2302,7 @@ To change this setting, <ph name="BEGIN_LINK">&lt;resetlink&gt;</ph>reset sync<p
       <message name="IDS_DOWNLOAD_FAILED_REASON_STORAGE_NOT_FOUND" desc="Message to explain that the download failed because no storage is found.">
         <ph name="FILE_NAME">%1$s<ex>http://abc.com/test.pdf</ex></ph> download failed because storage location is not reachable.
       </message>
-      <message name="IDS_DOWNLOAD_FAILED_REASON_UNKNOWN_ERROR" desc="Message to explain that the download failed because unkown error.">
+      <message name="IDS_DOWNLOAD_FAILED_REASON_UNKNOWN_ERROR" desc="Message to explain that the download failed because unknown error.">
         <ph name="FILE_NAME">%1$s<ex>http://abc.com/test.pdf</ex></ph> download failed due to an unknown error.
       </message>
       <message name="IDS_DOWNLOAD_STARTED" desc="Message to show when download has started [CHAR LIMIT=30]">
@@ -2367,7 +2367,7 @@ To change this setting, <ph name="BEGIN_LINK">&lt;resetlink&gt;</ph>reset sync<p
       <message name="IDS_OMA_DOWNLOAD_SIZE_LABEL" desc="A text label to display the size of the OMA download.">
         Size:
       </message>
-      <message name="IDS_OMA_DOWNLOAD_TYPE_LABEL" desc="A text label to display the MIME tyoe of the OMA download.">
+      <message name="IDS_OMA_DOWNLOAD_TYPE_LABEL" desc="A text label to display the MIME type of the OMA download.">
         Type:
       </message>
       <message name="IDS_OMA_DOWNLOAD_DESCRIPTION_LABEL" desc="A text label to display the description of the OMA download.">
@@ -2562,7 +2562,7 @@ To change this setting, <ph name="BEGIN_LINK">&lt;resetlink&gt;</ph>reset sync<p
       <message name="IDS_INCOGNITO_INTERSTITIAL_TITLE" desc="The title of the private interstitial bottom sheet.">
         Use Private to sign in
       </message>
-      <message name="IDS_INCOGNITO_INTERSTITIAL_MESSAGE" desc="The content of Private interstitial which is shown when a user is in the sign-in flow and they want to go Private mode to continue signing in. Before they go Private mode they would be presented with a Private interstitial and this message is part of that interstitial which would inform how activity in Private may be visbile to others and how data from the Private session can be cleared.">
+      <message name="IDS_INCOGNITO_INTERSTITIAL_MESSAGE" desc="The content of Private interstitial which is shown when a user is in the sign-in flow and they want to go Private mode to continue signing in. Before they go Private mode they would be presented with a Private interstitial and this message is part of that interstitial which would inform how activity in Private may be visible to others and how data from the Private session can be cleared.">
 In Private, your activity <ph name="BEGIN_BOLD1">&lt;b1&gt;</ph>might still be visible <ph name="END_BOLD1">&lt;/b1&gt;</ph>to websites that you visit, your employer or school, and your internet service provider.
 
 Data from your Private session will only be cleared from Brave when you <ph name="BEGIN_BOLD2">&lt;b2&gt;</ph>close all Private tabs<ph name="END_BOLD2">&lt;/b2&gt;</ph>.
@@ -2612,7 +2612,7 @@ Data from your Private session will only be cleared from Brave when you <ph name
       </message>
 
       <!-- Personalized Signin Promos Strings -->
-      <message name="IDS_SIGNIN_PROMO_CONTINUE_AS" desc="Button that the user can press to login without asking the password and continue using Brave with this acccount.">
+      <message name="IDS_SIGNIN_PROMO_CONTINUE_AS" desc="Button that the user can press to login without asking the password and continue using Brave with this account.">
         Continue as <ph name="USER_FULL_NAME">%1$s<ex>John Doe</ex></ph>
       </message>
       <message name="IDS_SIGNIN_PROMO_CHOOSE_ACCOUNT" desc="Button that the user can press if they are not the profile that Brave found (opposite of 'Continue as Joe Doe').">
@@ -3169,7 +3169,7 @@ Data from your Private session will only be cleared from Brave when you <ph name
           other {Brave will load your pages when ready}}
       </message>
 
-      <message name="IDS_OFFLINE_PAGES_AUTO_FETCH_READY_NOTIFICATION_TEXT" desc="Text inside a notification explaining that the page has been fetched and is ready to view. This is the subtext of the notification and appars below the web page title. When the notification is tapped, the page is opened in Brave.">
+      <message name="IDS_OFFLINE_PAGES_AUTO_FETCH_READY_NOTIFICATION_TEXT" desc="Text inside a notification explaining that the page has been fetched and is ready to view. This is the subtext of the notification and appears below the web page title. When the notification is tapped, the page is opened in Brave.">
         Page is ready to view
       </message>
 
@@ -3328,7 +3328,7 @@ Data from your Private session will only be cleared from Brave when you <ph name
       <message name="IDS_ACCESSIBILITY_OMNIBOX_SHOWING_SUGGESTIONS_FOR_WEBSITE" desc="Whenever the User is visiting a Website, when they click the Omnibox, we will announce this message, if we have suggestions to show.">
         Showing suggestions for <ph name="WEBSITE_TITLE">%1$s<ex>Crater Lake National Park (U.S. National Park Service)</ex></ph>
       </message>
-      <message name="IDS_ACCESSIBILITY_OMNIBOX_MOST_VISITED_TILE" desc="When the user focuses a Frequently Visited URL tile suggestion, the tile will be crome://announced according to the following pattern">
+      <message name="IDS_ACCESSIBILITY_OMNIBOX_MOST_VISITED_TILE" desc="When the user focuses a Frequently Visited URL tile suggestion, the tile will be chrome://announced according to the following pattern">
         <ph name="WEBSITE_TITLE">%1$s<ex>Crater Lake National Park (U.S. National Park Service)</ex></ph>: <ph name="WEBSITE_URL">%2$s<ex>https://www.nps.gov/crla</ex></ph>
       </message>
 
@@ -3547,7 +3547,7 @@ Data from your Private session will only be cleared from Brave when you <ph name
       <message name="IDS_STORAGE_MANAGEMENT_RESET_APP_DIALOG_TITLE" desc="Title of the reset app dialog in the storage UI used to reset the app.">
         Delete app data?
       </message>
-      <message name="IDS_STORAGE_MANAGEMENT_RESET_APP_DIALOG_TEXT" desc="Text of the reset app dialoag in the storage UI.">
+      <message name="IDS_STORAGE_MANAGEMENT_RESET_APP_DIALOG_TEXT" desc="Text of the reset app dialog in the storage UI.">
         All Brave’s app data will be deleted permanently. This includes all files, settings, accounts, databases, etc.
       </message>
 
@@ -3675,7 +3675,7 @@ Data from your Private session will only be cleared from Brave when you <ph name
       <message name="IDS_KEYBOARD_SHORTCUT_BOOKMARK_PAGE" desc="A text label that appears next to the keyboard shortcut that will bookmark the page that is currently on screen. The shortcut description is shown in a system dialog along with all other supported shortcuts. [CHAR-LIMIT=55]">
         Bookmark the current page
       </message>
-      <message name="IDS_KEYBOARD_SHORTCUT_HISTORY_MANAGER" desc="A text label that appears next to the keyboard shorcut that will open up the history page. The shortcut description is shown in a system dialog along with all other supported shortcuts. [CHAR-LIMIT=55]">
+      <message name="IDS_KEYBOARD_SHORTCUT_HISTORY_MANAGER" desc="A text label that appears next to the keyboard shortcut that will open up the history page. The shortcut description is shown in a system dialog along with all other supported shortcuts. [CHAR-LIMIT=55]">
         Open the history page
       </message>
       <message name="IDS_KEYBOARD_SHORTCUT_PRINT_PAGE" desc="A text label that appears next to the keyboard shortcut that will open the print page. The shortcut description is shown in a system dialog along with all other supported shortcuts. [CHAR-LIMIT=55]">
@@ -3716,10 +3716,10 @@ Data from your Private session will only be cleared from Brave when you <ph name
       <message name="IDS_VR_PREPARING_VR_TOAST_STANDALONE_TEXT" desc="Text shown on a toast when Brave's VR browser could not be started due to the VR module missing.">
         Brave is still preparing for VR. Restart Brave later.
       </message>
-      <message name="IDS_VR_PREPARING_VR_NOTIFICATION_TITLE" desc="Title of a notifaction shown in VR if VR browser not ready yet. [CHAR-LIMIT=23]">
+      <message name="IDS_VR_PREPARING_VR_NOTIFICATION_TITLE" desc="Title of a notification shown in VR if VR browser not ready yet. [CHAR-LIMIT=23]">
         Something went wrong.
       </message>
-      <message name="IDS_VR_PREPARING_VR_NOTIFICATION_BODY" desc="Body of a notifaction shown in VR if VR browser not ready yet.">
+      <message name="IDS_VR_PREPARING_VR_NOTIFICATION_BODY" desc="Body of a notification shown in VR if VR browser not ready yet.">
         Reopen Brave.
       </message>
 
@@ -3741,7 +3741,7 @@ Data from your Private session will only be cleared from Brave when you <ph name
         Unable to install <ph name="module">%1$s<ex>augmented reality</ex></ph> for Brave
       </message>
 
-      <!-- Custom Context Menu Informations -->
+      <!-- Custom Context Menu Information -->
       <message name="IDS_CONTEXTMENU_IMAGE_TITLE" desc="The title of a context menu tab when the item pressed contains more than one type. This indicates that all the actions are related to the image.">
         IMAGE
       </message>
@@ -4257,7 +4257,7 @@ Data from your Private session will only be cleared from Brave when you <ph name
       <message name="IDS_PAINT_PREVIEW_STARTUP_UPGRADE_SNACKBAR_MESSAGE" desc="Message displayed on a snackbar when a paint preview is shown on startup, telling the user that this is a preview of the page">
         Previewing this page
       </message>
-      <message name="IDS_PAINT_PREVIEW_STARTUP_UPGRADE_SNACKBAR_ACTION" desc="Text displayed on the action button of snackbar, promting user to switch to the live page and exit paint preivew. [CHAR-LIMIT=12]">
+      <message name="IDS_PAINT_PREVIEW_STARTUP_UPGRADE_SNACKBAR_ACTION" desc="Text displayed on the action button of snackbar, prompting user to switch to the live page and exit paint preview. [CHAR-LIMIT=12]">
         Reload
       </message>
       <message name="IDS_PAINT_PREVIEW_STARTUP_AUTO_UPGRADE_TOAST" desc="Text displayed as a toast message when paint preview         is automatically removed and live tab is shown.">

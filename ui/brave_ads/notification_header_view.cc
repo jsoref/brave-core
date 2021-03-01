@@ -44,7 +44,7 @@ constexpr int kInnerHeaderHeight = kHeaderHeight - kHeaderOuterPadding.height();
 
 // Default paddings of the views of texts. Adjusted on Windows.
 // Top: 9px = 11px (from the mock) - 2px (outer padding).
-// Buttom: 6px from the mock.
+// Bottom: 6px from the mock.
 constexpr gfx::Insets kTextViewPaddingDefault(9, 12, 6, 0);
 
 // Bullet character. The divider symbol between different parts of the header.
@@ -55,7 +55,7 @@ constexpr int kHeaderTextFontSize = 14;
 // Minimum spacing before the control buttons.
 constexpr int kControlButtonSpacing = 10;
 
-// ExpandButtton forwards all mouse and key events to NotificationHeaderView,
+// ExpandButton forwards all mouse and key events to NotificationHeaderView,
 // but takes tab focus for accessibility purpose.
 class ExpandButton : public views::ImageView {
  public:

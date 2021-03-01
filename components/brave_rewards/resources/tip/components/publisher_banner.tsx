@@ -115,7 +115,7 @@ function getSocialIcon (type: string) {
 function isValidSocialLink (url: string) {
   try {
     // The URL constructor will throw when provided with any
-    // string that is not an absolute URL. If the URL constuctor
+    // string that is not an absolute URL. If the URL constructor
     // does not throw, consider it a valid social link URL.
     // tslint:disable-next-line:no-unused-expression
     new URL(url)
@@ -219,7 +219,7 @@ function getUnverifiedNotice (
 }
 
 function getPostRelativeTime (postDate: Date) {
-  // TS does not yet recongnize RelativeTimeFormatter (since chromium 71)
+  // TS does not yet recognize RelativeTimeFormatter (since chromium 71)
   const { RelativeTimeFormat } = Intl as any
   const formatter = new RelativeTimeFormat()
   const sec = Math.max(0, Date.now() - postDate.getTime()) / 1000

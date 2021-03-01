@@ -22,7 +22,7 @@ namespace prochlo {
 
 // Nomenclature for message structures:
 //
-// The client's encoder produces a Proclomation, i.e., an EncoderItem, which it
+// The client's encoder produces a Prochlomation, i.e., an EncoderItem, which it
 // wishes to deliver to the Analyzer, via the shuffler.
 //
 // A ShufflerItem travels from the Client to the Shuffler.
@@ -32,7 +32,7 @@ namespace prochlo {
 // The Shuffler stores the intermediate state of its shuffle on local
 // (untrusted) storage, in the shape of an IntermediateShufflerItem.
 //
-// A Proclomation contains just the type of data (|metric|) and the value. The
+// A Prochlomation contains just the type of data (|metric|) and the value. The
 // Client encrypts using AES128-GCM, with a key derived from its ephemeral key
 // pair and the Analyzer's public key. That's the inner layer of the nested
 // encryption, and constitutes the AnalyzerItem.
@@ -117,7 +117,7 @@ struct EncryptedProchlomation {
   uint8_t nonce[kNonceLength];
 
   // The key used to produce |ciphertext| is derived from the analyzer's key
-  // pair and the client's ephermeral key pair. The public key of the client's
+  // pair and the client's ephemeral key pair. The public key of the client's
   // key pair is |client_public_key|.
   uint8_t client_public_key[kPublicKeyLength];
 };
@@ -148,7 +148,7 @@ struct EncryptedPlainShufflerItem {
   uint8_t nonce[kNonceLength];
 
   // The key used to produce |ciphertext| is derived from the shuffler's key
-  // pair and the client's ephermeral key pair. The public key of the client's
+  // pair and the client's ephemeral key pair. The public key of the client's
   // key pair is |client_public_key|. Note that the client may (in fact, might
   // as well) use two different ephemeral key pairs, one for the shuffler and
   // one for the analyzer. So this may not be the same as the

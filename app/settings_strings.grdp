@@ -432,7 +432,7 @@
   <message name="IDS_SETTINGS_COMPROMISED_PASSWORD_REASON_PHISHED_AND_LEAKED" desc="Password compromise reason shown when a password was reused on a phishing site and found in a data breach.">
     Entered on deceptive site and found in data breach
   </message>
-  <message name="IDS_SETTINGS_COMPROMISED_PASSWORD_SHOW" desc="Action menu item for a row which displays a compromised password. The password value, which is initialy obfuscated, will be show in plain text.">
+  <message name="IDS_SETTINGS_COMPROMISED_PASSWORD_SHOW" desc="Action menu item for a row which displays a compromised password. The password value, which is initially obfuscated, will be show in plain text.">
     Show password
   </message>
   <message name="IDS_SETTINGS_COMPROMISED_PASSWORD_HIDE" desc="Action menu item for a row which displays a compromised password. The password value, which is shown in plain text, will be hidden again.">
@@ -581,7 +581,7 @@
   <message name="IDS_SETTINGS_PASSWORD_MOVE_PASSWORDS_TO_ACCOUNT_DIALOG_TITLE" desc="Title for the dialog that asks the user to select which passwords to move to their Brave sync chain.">
     Choose which passwords to move
   </message>
-  <message name="IDS_SETTINGS_PASSWORD_MOVE_PASSWORDS_TO_ACCOUNT_SNACKBAR" desc="Text in the snackbar that appears after the user successfuly moved local passwords to their Brave sync chain.">
+  <message name="IDS_SETTINGS_PASSWORD_MOVE_PASSWORDS_TO_ACCOUNT_SNACKBAR" desc="Text in the snackbar that appears after the user successfully moved local passwords to their Brave sync chain.">
     Passwords moved to your Brave sync chain
   </message>
   <message name="IDS_SETTINGS_PASSWORD_MOVE_TO_ACCOUNT_DIALOG_TITLE" desc="Title for the dialog that confirms whether the user wishes to move a password to their Brave sync chain.">
@@ -1318,29 +1318,29 @@
     <message name="IDS_SETTINGS_SAFETY_CHECK_CHROME_CLEANER_PRIMARY_LABEL" desc="'Unwanted software protection' is an element in safety check that finds harmful software installed on the computer and allows users to remove it.">
       Device software
     </message>
-    <message name="IDS_SETTINGS_SAFETY_CHECK_CHROME_CLEANER_BUTTON_ARIA_LABEL" desc="Accessiblity text for the button that allows users to review and remove harmful software found on their computer.">
+    <message name="IDS_SETTINGS_SAFETY_CHECK_CHROME_CLEANER_BUTTON_ARIA_LABEL" desc="Accessibility text for the button that allows users to review and remove harmful software found on their computer.">
       Review device software
     </message>
     <message name="IDS_SETTINGS_SAFETY_CHECK_CHROME_CLEANER_NO_UWS_WITHOUT_TIMESTAMP" desc="This text describes that Brave can check if any known harmful software is installed on the user's computer.">
       Brave can check your computer for harmful software
     </message>
-    <message name="IDS_SETTINGS_SAFETY_CHECK_CHROME_CLEANER_NO_UWS_WITH_TIMESTAMP_AFTER_SECONDS" desc="This text describes that Brave did not find any known harmful software installed on the user's computer, and that it checked for harmful softwrae the last time a certain time ago.">
+    <message name="IDS_SETTINGS_SAFETY_CHECK_CHROME_CLEANER_NO_UWS_WITH_TIMESTAMP_AFTER_SECONDS" desc="This text describes that Brave did not find any known harmful software installed on the user's computer, and that it checked for harmful software the last time a certain time ago.">
       Brave didn't find harmful software on your computer • Checked just now
     </message>
-    <message name="IDS_SETTINGS_SAFETY_CHECK_CHROME_CLEANER_NO_UWS_WITH_TIMESTAMP_AFTER_MINUTES" desc="This text describes that Brave did not find any known harmful software installed on the user's computer, and that it checked for harmful softwrae the last time a certain time ago.">
+    <message name="IDS_SETTINGS_SAFETY_CHECK_CHROME_CLEANER_NO_UWS_WITH_TIMESTAMP_AFTER_MINUTES" desc="This text describes that Brave did not find any known harmful software installed on the user's computer, and that it checked for harmful software the last time a certain time ago.">
       {NUM_MINS, plural,
        =1 {Brave didn't find harmful software on your computer • Checked 1 minute ago}
        other {Brave didn't find harmful software on your computer • Checked {NUM_MINS} minutes ago}}
     </message>
-    <message name="IDS_SETTINGS_SAFETY_CHECK_CHROME_CLEANER_NO_UWS_WITH_TIMESTAMP_AFTER_HOURS" desc="This text describes that Brave did not find any known harmful software installed on the user's computer, and that it checked for harmful softwrae the last time a certain time ago.">
+    <message name="IDS_SETTINGS_SAFETY_CHECK_CHROME_CLEANER_NO_UWS_WITH_TIMESTAMP_AFTER_HOURS" desc="This text describes that Brave did not find any known harmful software installed on the user's computer, and that it checked for harmful software the last time a certain time ago.">
       {NUM_HOURS, plural,
        =1 {Brave didn't find harmful software on your computer • Checked 1 hour ago}
        other {Brave didn't find harmful software on your computer • Checked {NUM_HOURS} hours ago}}
     </message>
-    <message name="IDS_SETTINGS_SAFETY_CHECK_CHROME_CLEANER_NO_UWS_WITH_TIMESTAMP_YESTERDAY" desc="This text describes that Brave did not find any known harmful software installed on the user's computer, and that it checked for harmful softwrae the last time a certain time ago.">
+    <message name="IDS_SETTINGS_SAFETY_CHECK_CHROME_CLEANER_NO_UWS_WITH_TIMESTAMP_YESTERDAY" desc="This text describes that Brave did not find any known harmful software installed on the user's computer, and that it checked for harmful software the last time a certain time ago.">
       Brave didn't find harmful software on your computer • Checked yesterday
     </message>
-    <message name="IDS_SETTINGS_SAFETY_CHECK_CHROME_CLEANER_NO_UWS_WITH_TIMESTAMP_AFTER_DAYS" desc="This text describes that Brave did not find any known harmful software installed on the user's computer, and that it checked for harmful softwrae the last time a certain time ago.">
+    <message name="IDS_SETTINGS_SAFETY_CHECK_CHROME_CLEANER_NO_UWS_WITH_TIMESTAMP_AFTER_DAYS" desc="This text describes that Brave did not find any known harmful software installed on the user's computer, and that it checked for harmful software the last time a certain time ago.">
       {NUM_DAYS, plural,
        =1 {Brave didn't find harmful software on your computer • Checked 1 day ago}
        other {Brave didn't find harmful software on your computer • Checked {NUM_DAYS} days ago}}
@@ -1351,7 +1351,7 @@
     <message name="IDS_SETTINGS_SAFETY_CHECK_CHROME_CLEANER_SCANNING" desc="This text describes that Brave is currently checking the user's device for unwanted software. This takes a couple of minutes.">
       Brave is checking your computer for harmful software...
     </message>
-    <message name="IDS_SETTINGS_SAFETY_CHECK_CHROME_CLEANER_REMOVING" desc="This text describes that Brave is currently removing unwanted software frrom the user.s device. This takes a couple of minutes.">
+    <message name="IDS_SETTINGS_SAFETY_CHECK_CHROME_CLEANER_REMOVING" desc="This text describes that Brave is currently removing unwanted software from the user.s device. This takes a couple of minutes.">
       Brave is removing harmful software from your computer...
     </message>
     <message name="IDS_SETTINGS_SAFETY_CHECK_CHROME_CLEANER_DISABLED_BY_ADMIN" desc="This text describes that Brave can't check for unwanted software because an administrator disabled the feature.">
@@ -1449,7 +1449,7 @@
   <message name="IDS_SETTINGS_PERMISSIONS" desc="Name of the settings page which allows users to manage permissions and site content settings">
     Permissions and content settings
   </message>
-  <message name="IDS_SETTINGS_PERMISSIONS_DESCRIPTION" desc="Description of the controls available on the permisisons and site content settings page">
+  <message name="IDS_SETTINGS_PERMISSIONS_DESCRIPTION" desc="Description of the controls available on the permissions and site content settings page">
     Controls what information sites can use and show (location, camera, pop-ups, and more)
   </message>
   <message name="IDS_SETTINGS_SECURITY" desc="Name of the settings page which allows   users to manage security settings">
@@ -1551,13 +1551,13 @@
   <message name="IDS_SETTINGS_RECENT_PERMISSIONS_CHANGE_ALLOWED_SENTENCE_START" desc="An indicator that a specific permission has been allowed for a website by the user. This will be used to start a sentence or by itself">
     Allowed <ph name="PERMISSION">$1<ex>Camera</ex></ph>
   </message>
-  <message name="IDS_SETTINGS_RECENT_PERMISSIONS_CHANGE_AUTOBLOCKED" desc="An indicator that a specific permission has been automatically blocked by the browser, This will be used inside a sentance">
+  <message name="IDS_SETTINGS_RECENT_PERMISSIONS_CHANGE_AUTOBLOCKED" desc="An indicator that a specific permission has been automatically blocked by the browser, This will be used inside a sentence">
     automatically blocked <ph name="PERMISSION">$1<ex>Notifications</ex></ph>
   </message>
-  <message name="IDS_SETTINGS_RECENT_PERMISSIONS_CHANGE_BLOCKED" desc="An indicator that a specific permission has been blocked for a website by the user. This will be used inside a sentance">
+  <message name="IDS_SETTINGS_RECENT_PERMISSIONS_CHANGE_BLOCKED" desc="An indicator that a specific permission has been blocked for a website by the user. This will be used inside a sentence">
     blocked <ph name="PERMISSION">$1<ex>Location</ex></ph>
   </message>
-  <message name="IDS_SETTINGS_RECENT_PERMISSIONS_CHANGE_ALLOWED" desc="An indicator that a specific permission has been allowed for a website by the user. This will be used inside of a sentance">
+  <message name="IDS_SETTINGS_RECENT_PERMISSIONS_CHANGE_ALLOWED" desc="An indicator that a specific permission has been allowed for a website by the user. This will be used inside of a sentence">
     allowed <ph name="PERMISSION">$1<ex>Camera</ex></ph>
   </message>
   <message name="IDS_SETTINGS_RECENT_PERMISSIONS_TWO_ITEMS" desc="A list containing two permissions which have recently changed">
@@ -1583,7 +1583,7 @@
   </message>
 
   <!-- Reset Settings Page -->
-  <message name="IDS_SETTINGS_RESET_PROMPT_TITLE" desc="Title for a prompt that gives an explanation of what would be resetted by 'Reset and clean up' section of Brave Settings. " meaning="Chrome Cleanup feature. Try to use the same translation for 'Reset' in 'Reset and cleanup' string.">
+  <message name="IDS_SETTINGS_RESET_PROMPT_TITLE" desc="Title for a prompt that gives an explanation of what would be reset by 'Reset and clean up' section of Brave Settings. " meaning="Chrome Cleanup feature. Try to use the same translation for 'Reset' in 'Reset and cleanup' string.">
     Reset settings?
   </message>
   <message name="IDS_SETTINGS_RESET" desc="Title for an item in the 'Reset and clean up' section of Brave Settings. If the user clicks this option, browser settings will be returned to their default values, after a confirmation by the user." meaning="Chrome Cleanup feature. Try to use the same translation for 'Reset' in 'Reset and cleanup' string.">
@@ -1854,20 +1854,20 @@
   <message name="IDS_SETTINGS_SITE_SETTINGS_IMAGES_BLOCKED_EXCEPTIONS" desc="Label for the blocked exceptions site list of the images content setting.">
     Not allowed to show images
   </message>
-  <message name="IDS_SETTINGS_SITE_SETTINGS_JAVASCRIPT_DESCRIPTION" desc="Description of the Javascript content setting.">
-    Sites usually use Javascript to display interactive features, like video games or web forms
+  <message name="IDS_SETTINGS_SITE_SETTINGS_JAVASCRIPT_DESCRIPTION" desc="Description of the JavaScript content setting.">
+    Sites usually use JavaScript to display interactive features, like video games or web forms
   </message>
-  <message name="IDS_SETTINGS_SITE_SETTINGS_JAVASCRIPT_ALLOWED" desc="Label for the enabled option of the Javascript content setting.">
-    Sites can use Javascript (recommended)
+  <message name="IDS_SETTINGS_SITE_SETTINGS_JAVASCRIPT_ALLOWED" desc="Label for the enabled option of the JavaScript content setting.">
+    Sites can use JavaScript (recommended)
   </message>
-  <message name="IDS_SETTINGS_SITE_SETTINGS_JAVASCRIPT_BLOCKED" desc="Label for the disabled option of the Javascript content setting.">
-    Block Javascript
+  <message name="IDS_SETTINGS_SITE_SETTINGS_JAVASCRIPT_BLOCKED" desc="Label for the disabled option of the JavaScript content setting.">
+    Block JavaScript
   </message>
-  <message name="IDS_SETTINGS_SITE_SETTINGS_JAVASCRIPT_ALLOWED_EXCEPTIONS" desc="Label for the allowed exceptions site list of the Javascript content setting.">
-    Allowed to use Javascript
+  <message name="IDS_SETTINGS_SITE_SETTINGS_JAVASCRIPT_ALLOWED_EXCEPTIONS" desc="Label for the allowed exceptions site list of the JavaScript content setting.">
+    Allowed to use JavaScript
   </message>
-  <message name="IDS_SETTINGS_SITE_SETTINGS_JAVASCRIPT_BLOCKED_EXCEPTIONS" desc="Label for the blocked exceptions site list of the Javascript content setting.">
-    Not allowed to use Javascript
+  <message name="IDS_SETTINGS_SITE_SETTINGS_JAVASCRIPT_BLOCKED_EXCEPTIONS" desc="Label for the blocked exceptions site list of the JavaScript content setting.">
+    Not allowed to use JavaScript
   </message>
   <message name="IDS_SETTINGS_SITE_SETTINGS_MIC_DESCRIPTION" desc="Description of the microphone content setting.">
     Sites usually use your microphone for communication features like video chatting
@@ -2233,7 +2233,7 @@
     <message name="IDS_SETTINGS_SITE_SETTINGS_PROTECTED_CONTENT_IDENTIFIERS_EXPLANATION" desc="Text that is displayed on the Protected Content section of Content Settings. This text explains that enabling protected content may require using a uniquely identifiable machine identifier.">
       Some content services use unique identifiers for the purposes of authorizing access to protected content
     </message>
-    <message name="IDS_SETTINGS_SITE_SETTINGS_PROTECTED_CONTENT_ENABLE_IDENTIFIERS" desc="The label of the checkbox for enabling machine identifiers to uniquely identiy the user for protected content.">
+    <message name="IDS_SETTINGS_SITE_SETTINGS_PROTECTED_CONTENT_ENABLE_IDENTIFIERS" desc="The label of the checkbox for enabling machine identifiers to uniquely identity the user for protected content.">
       Allow identifiers for protected content (computer restart may be required)
     </message>
   </if>
@@ -3118,7 +3118,7 @@
     <message name="IDS_SETTINGS_RESET_CLEANUP_EXPLANATION_PERMISSIONS_NEEDED" desc="Body of error message that could appear during the cleanup of harmful software. Imperative. ">
       Click Try Again, and accept the prompt on your computer
     </message>
-    <message name="IDS_SETTINGS_RESET_CLEANUP_EXPLANATION_CURRENTLY_REMOVING" desc="Description in the Brave Cleanup web page that Brave browser shows when unwanted software, like ad injectors or software that changes the user's settings without their knowledge, is being removed by Brave from the user's computer. Appears under the title 'Removing harmful software...' Actor is Brave; we are indicating that harmful software is currently being removed. 'it' is harmful software. Preferrably, the translation for this string should parallel IDS_CHROME_CLEANUP_PROMPT_EXPLANATION.">
+    <message name="IDS_SETTINGS_RESET_CLEANUP_EXPLANATION_CURRENTLY_REMOVING" desc="Description in the Brave Cleanup web page that Brave browser shows when unwanted software, like ad injectors or software that changes the user's settings without their knowledge, is being removed by Brave from the user's computer. Appears under the title 'Removing harmful software...' Actor is Brave; we are indicating that harmful software is currently being removed. 'it' is harmful software. Preferably, the translation for this string should parallel IDS_CHROME_CLEANUP_PROMPT_EXPLANATION.">
       There's harmful software on your computer. Brave is removing it, restoring your settings, and disabling extensions. This will make your browser work normally again.
     </message>
     <message name="IDS_SETTINGS_RESET_CLEANUP_EXPLANATION_SCAN_ERROR" desc="Body of error message that could appear during the cleanup of harmful software.">
@@ -3181,7 +3181,7 @@
     <message name="IDS_SETTINGS_RESET_CLEANUP_LOGS_PERMISSION_PREF" desc="A checkbox label for the 'Report harmful software removal details' preference.">
       Report details to Brave about harmful software, system settings, and processes that were found on your computer during this cleanup
     </message>
-    <message name="IDS_SETTINGS_RESET_CLEANUP_EXPLANTION_NOTIFICATION_PERMISSION" desc="A checkbox label for showing a notification dialog to users once the Brave scan for harmful software completed.">
+    <message name="IDS_SETTINGS_RESET_CLEANUP_EXPLANATION_NOTIFICATION_PERMISSION" desc="A checkbox label for showing a notification dialog to users once the Brave scan for harmful software completed.">
       Notify me when Brave has finished searching for harmful software
     </message>
     <message name="IDS_SETTINGS_RESET_CLEANUP_TITLE_CLEANUP_UNAVAILABLE" desc="Title of error message that could appear before the cleanup of harmful software because Brave failed to contact the server. This message will only appear on Windows desktop/laptop computers.">
@@ -3211,7 +3211,7 @@
       <ph name="BEGIN_LINK">&lt;a target="_blank" rel="noopener noreferrer" href="$1"&gt;</ph>Learn how to update applications<ph name="END_LINK">&lt;/a&gt;</ph>
     </message>
     <message name="IDS_SETTINGS_INCOMPATIBLE_APPLICATIONS_LIST_TITLE" desc="This is the title for the list of incompatible applications.">
-      {NUM_APLLICATIONS, plural,
+      {NUM_APPLICATIONS, plural,
         =1 {Application}
         other {Applications}}
     </message>
@@ -3231,10 +3231,10 @@
   </message>
 
   <!-- Security Keys -->
-  <message name="IDS_SETTINGS_SECURITY_KEYS_TITLE" desc="Headline in the Settings UI for the subpage handling security keys. Security keys are external physcial devices for user authentication and the translation should match that used in, for example, IDS_WEBAUTHN_USB_ACTIVATE_DESCRIPTION.">
+  <message name="IDS_SETTINGS_SECURITY_KEYS_TITLE" desc="Headline in the Settings UI for the subpage handling security keys. Security keys are external physical devices for user authentication and the translation should match that used in, for example, IDS_WEBAUTHN_USB_ACTIVATE_DESCRIPTION.">
     Manage security keys
   </message>
-  <message name="IDS_SETTINGS_SECURITY_KEYS_DESC" desc="Description in the Settings UI for the subpage handling security keys. Security keys are external physcial devices for user authentication.">
+  <message name="IDS_SETTINGS_SECURITY_KEYS_DESC" desc="Description in the Settings UI for the subpage handling security keys. Security keys are external physical devices for user authentication.">
     Reset security keys and create PINs
   </message>
   <message name="IDS_SETTINGS_SECURITY_KEYS_SET_PIN" desc="A header that appears in the Settings subpage for security keys (which are external devices for user authentication). PINs are often four-digit codes, commonly used to authorise the use of ATM cards. A similar mechanism can be used with security keys and this is the heading for the section about settings them.">
@@ -3326,7 +3326,7 @@
   <message name="IDS_SETTINGS_SECURITY_KEYS_PIN_ERROR_MISMATCH" desc="A validation error shown beneath a text box where the user is expected to enter a PIN for a security key. PINs, in this context, are short, often numeric codes that are often used with, for example, ATM cards. Security keys are external devices used to authenticate people.">
     The PINs you entered don’t match
   </message>
-  <message name="IDS_SETTINGS_SECURITY_KEYS_CONFIRM_PIN" desc="A label shown above a text box where the user is expected to reenter a new PIN for a security key. The text box is a duplicate of an immediately preceeding text box where the user has already entered this value. The user is asked to enter the same value twice in order to ensure that they entered it correctly. PINs, in this context, are short, often numeric codes that are often used with, for example, ATM cards. Security keys are external devices used to authenticate people.">
+  <message name="IDS_SETTINGS_SECURITY_KEYS_CONFIRM_PIN" desc="A label shown above a text box where the user is expected to reenter a new PIN for a security key. The text box is a duplicate of an immediately preceding text box where the user has already entered this value. The user is asked to enter the same value twice in order to ensure that they entered it correctly. PINs, in this context, are short, often numeric codes that are often used with, for example, ATM cards. Security keys are external devices used to authenticate people.">
     Confirm PIN
   </message>
   <message name="IDS_SETTINGS_SECURITY_KEYS_PIN_SUCCESS" desc="A message shown when the user has successfully set a PIN on a security key. PINs, in this context, are short, often numeric codes that are often used with, for example, ATM cards. Security keys are external devices used to authenticate people.">

@@ -100,7 +100,7 @@ IN_PROC_BROWSER_TEST_F(BraveThemeServiceTest, ThemeObserverTest) {
   dark_mode::SetBraveDarkModeType(
       dark_mode::BraveDarkModeType::BRAVE_DARK_MODE_TYPE_LIGHT);
 
-  // Check theme oberver is called twice by changing theme.
+  // Check theme observer is called twice by changing theme.
   // One for changing to dark and the other for changing to light.
   TestNativeThemeObserver native_theme_observer;
   EXPECT_CALL(
@@ -202,7 +202,7 @@ IN_PROC_BROWSER_TEST_F(BraveThemeServiceTest, DarkModeChangeByRegTest) {
   apps_use_light_theme = initial_dark_mode ? 0 : 1;
   hkcu_themes_regkey.WriteValue(L"AppsUseLightTheme", apps_use_light_theme);
 
-  // Timeout is used because we can't get notifiication with light theme.
+  // Timeout is used because we can't get notification with light theme.
   RunLoopRunWithTimeout(base::TimeDelta::FromMilliseconds(500));
 }
 #endif

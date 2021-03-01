@@ -523,7 +523,7 @@ Brave is unable to recover your settings.
       <message name="IDS_BLOCK_REASON_DANGEROUS_DOWNLOAD" desc="Message shown to the user on chrome://downloads page to explain that this download is blocked because it is malware.">
         This file is dangerous, so Brave has blocked it.
       </message>
-      <message name="IDS_BLOCK_REASON_UNWANTED_DOWNLOAD" desc="Message shown to the user on chrome://downloads page to explain that this download is blocked because it is unwanted sofware.">
+      <message name="IDS_BLOCK_REASON_UNWANTED_DOWNLOAD" desc="Message shown to the user on chrome://downloads page to explain that this download is blocked because it is unwanted software.">
         This file may be dangerous, so Brave has blocked it.
       </message>
 
@@ -748,7 +748,7 @@ Brave is unable to recover your settings.
            Note: these strings should only be used by Brave, but
                  omitting them brings up a hash collision error. -->
       <if expr="is_win">
-        <message name="IDS_CHROME_CLEANUP_PROMPT_EXPLANATION" desc="Description in the Brave Cleanup dialog that Brave browser shows when unwanted software, like ad injectors or software that changes the user's settings without their knowledge, is found on the user's computer. Appears under the title asking 'Remove harmful software?' Actor is Brave; we are asking, Do you want Brave to remove harmful software? 'it' is harmful software. User has the option of clicking 'Remove' to proceed with a cleanup, or 'Details' to see more details. The description is also shown on the Brave Cleanup section of the Settings page, under 'Remove harmful software' title. Preferrably, the translation for this string should parallel IDS_SETTINGS_RESET_CLEANUP_EXPLANATION_CURRENTLY_REMOVING.">
+        <message name="IDS_CHROME_CLEANUP_PROMPT_EXPLANATION" desc="Description in the Brave Cleanup dialog that Brave browser shows when unwanted software, like ad injectors or software that changes the user's settings without their knowledge, is found on the user's computer. Appears under the title asking 'Remove harmful software?' Actor is Brave; we are asking, Do you want Brave to remove harmful software? 'it' is harmful software. User has the option of clicking 'Remove' to proceed with a cleanup, or 'Details' to see more details. The description is also shown on the Brave Cleanup section of the Settings page, under 'Remove harmful software' title. Preferably, the translation for this string should parallel IDS_SETTINGS_RESET_CLEANUP_EXPLANATION_CURRENTLY_REMOVING.">
           There's harmful software on your computer. Brave can remove it, restore your settings, and disable extensions to make your browser work normally again.
         </message>
       </if>
@@ -1027,7 +1027,7 @@ Brave is unable to recover your settings.
          =1 {Brave will restart in 1 second}
          other {Brave will restart in # seconds}}
       </message>
-      <message name="IDS_CRITICAL_NOTIFICATION_TITLE_ALTERNATE" desc="The title for a bubble that appears when there is a critical update and Brave must restart to install it. The title was previously countng down to an automatic restart and now it has finished. Will only be seen if a web page stops the shutdown process.">
+      <message name="IDS_CRITICAL_NOTIFICATION_TITLE_ALTERNATE" desc="The title for a bubble that appears when there is a critical update and Brave must restart to install it. The title was previously counting down to an automatic restart and now it has finished. Will only be seen if a web page stops the shutdown process.">
         Please restart Brave now
       </message>
       <message name="IDS_CRITICAL_NOTIFICATION_TEXT" desc="Explanation text for the bubble that appears when there is a critical update and Brave must restart to install it.">
@@ -1201,7 +1201,7 @@ Brave is unable to recover your settings.
         <message name="IDS_PROFILE_PICKER_PROFILE_CREATION_FLOW_NOT_NOW_BUTTON_LABEL" desc="Label for a button to decline a prompt to sign in">
           Use Brave without an account
         </message>
-        <message name="IDS_PROFILE_PICKER_PROFILE_CREATION_FLOW_LOCAL_PROFILE_CREATION_TITLE" desc="Title for the local profile customiztion screen on the picker.">
+        <message name="IDS_PROFILE_PICKER_PROFILE_CREATION_FLOW_LOCAL_PROFILE_CREATION_TITLE" desc="Title for the local profile customization screen on the picker.">
           Customize your Brave profile
         </message>
         <message name="IDS_PROFILE_PICKER_IPH_FOR_PROFILES_TEXT" desc="Text of the IPH bubble for introducing profiles.">

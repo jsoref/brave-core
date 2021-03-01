@@ -40,7 +40,7 @@
   <message name="IDS_OS_SETTINGS_ABOUT_PAGE_BUILD_DETAILS_COPY_TOOLTIP_LABEL" desc="Tooltip label that describes the build details copy button.">
     Copy build details to clipboard
   </message>
-  <message name="IDS_OS_SETTINGS_ABOUT_PAGE_ENTERPRISE_ENNROLLED_TITLE" desc="The title label for whether a device is enterprise enrolled.">
+  <message name="IDS_OS_SETTINGS_ABOUT_PAGE_ENTERPRISE_ENROLLED_TITLE" desc="The title label for whether a device is enterprise enrolled.">
     Enterprise Enrolled
   </message>
   <message name="IDS_OS_SETTINGS_ABOUT_ARC_STATUS_TITLE" desc="The title label for Arc status (if enabled).">
@@ -829,34 +829,34 @@
   <message name="IDS_SETTINGS_DOCKED_MAGNIFIER_ZOOM_LABEL" desc="Label for dropdown menu which contains zoom levels for the docked magnifier">
     Docked zoom level:
   </message>
-  <message name="IDS_SETTINGS_SCREEN_MAGNIFIER_ZOOM_2_X" desc="Desription of a 2x zoom level">
+  <message name="IDS_SETTINGS_SCREEN_MAGNIFIER_ZOOM_2_X" desc="Description of a 2x zoom level">
     2x
   </message>
-  <message name="IDS_SETTINGS_SCREEN_MAGNIFIER_ZOOM_4_X" desc="Desription of a 4x zoom level">
+  <message name="IDS_SETTINGS_SCREEN_MAGNIFIER_ZOOM_4_X" desc="Description of a 4x zoom level">
     4x
   </message>
-  <message name="IDS_SETTINGS_SCREEN_MAGNIFIER_ZOOM_6_X" desc="Desription of a 6x zoom level">
+  <message name="IDS_SETTINGS_SCREEN_MAGNIFIER_ZOOM_6_X" desc="Description of a 6x zoom level">
     6x
   </message>
-  <message name="IDS_SETTINGS_SCREEN_MAGNIFIER_ZOOM_8_X" desc="Desription of a 8x zoom level">
+  <message name="IDS_SETTINGS_SCREEN_MAGNIFIER_ZOOM_8_X" desc="Description of a 8x zoom level">
     8x
   </message>
-  <message name="IDS_SETTINGS_SCREEN_MAGNIFIER_ZOOM_10_X" desc="Desription of a 10x zoom level">
+  <message name="IDS_SETTINGS_SCREEN_MAGNIFIER_ZOOM_10_X" desc="Description of a 10x zoom level">
     10x
   </message>
-  <message name="IDS_SETTINGS_SCREEN_MAGNIFIER_ZOOM_12_X" desc="Desription of a 12x zoom level">
+  <message name="IDS_SETTINGS_SCREEN_MAGNIFIER_ZOOM_12_X" desc="Description of a 12x zoom level">
     12x
   </message>
-  <message name="IDS_SETTINGS_SCREEN_MAGNIFIER_ZOOM_14_X" desc="Desription of a 14x zoom level">
+  <message name="IDS_SETTINGS_SCREEN_MAGNIFIER_ZOOM_14_X" desc="Description of a 14x zoom level">
     14x
   </message>
-  <message name="IDS_SETTINGS_SCREEN_MAGNIFIER_ZOOM_16_X" desc="Desription of a 16x zoom level">
+  <message name="IDS_SETTINGS_SCREEN_MAGNIFIER_ZOOM_16_X" desc="Description of a 16x zoom level">
     16x
   </message>
-  <message name="IDS_SETTINGS_SCREEN_MAGNIFIER_ZOOM_18_X" desc="Desription of a 18x zoom level">
+  <message name="IDS_SETTINGS_SCREEN_MAGNIFIER_ZOOM_18_X" desc="Description of a 18x zoom level">
     18x
   </message>
-  <message name="IDS_SETTINGS_SCREEN_MAGNIFIER_ZOOM_20_X" desc="Desription of a 20x zoom level">
+  <message name="IDS_SETTINGS_SCREEN_MAGNIFIER_ZOOM_20_X" desc="Description of a 20x zoom level">
     20x
   </message>
   <message name="IDS_SETTINGS_TAP_DRAGGING_LABEL" desc="Label for checkbox which enables tap dragging.">
@@ -886,7 +886,7 @@
   <message name="IDS_SETTINGS_AUTOCLICK_REVERT_TO_LEFT_CLICK" desc="Description of a checkbox that gives the option to return to the default left click action after taking another action.">
     Revert to left click after action
   </message>
-  <message name="IDS_SETTINGS_AUTOCLICK_STABILIZE_CURSOR_POSITION" desc="Description of a checkbox that gives the option to turn on cursor movmeent stablization.">
+  <message name="IDS_SETTINGS_AUTOCLICK_STABILIZE_CURSOR_POSITION" desc="Description of a checkbox that gives the option to turn on cursor movement stabilization.">
     Stabilize click location
   </message>
   <message name="IDS_SETTINGS_AUTOCLICK_MOVEMENT_THRESHOLD_LABEL" desc="Label for a dropdown menu which that has options for how much mouse movement can occur before a new autoclick is initiated.">
@@ -1332,7 +1332,7 @@ Press an assigned switch to remove assignment.
   <message name="IDS_SETTINGS_CROSTINI_SHARED_PATHS_LIST_EMPTY_MESSAGE" desc="Message shown when the user has not yet shared any folders in Crostini.">
     Shared folders will appear here
   </message>
-  <message name="IDS_SETTINGS_CROSTINI_EXPORT_IMPORT_TITLE" desc="Title for crostini container export and imoprt (backup and restore) section">
+  <message name="IDS_SETTINGS_CROSTINI_EXPORT_IMPORT_TITLE" desc="Title for crostini container export and import (backup and restore) section">
     Backup &amp; restore
   </message>
   <message name="IDS_SETTINGS_CROSTINI_EXPORT" desc="Tile for exporting (backing up) the crostini container.">
@@ -1365,7 +1365,7 @@ Press an assigned switch to remove assignment.
   <message name="IDS_SETTINGS_CROSTINI_SHARED_USB_DEVICES_EXTRA_DESCRIPTION" desc="Extra description for managing shared USB devices.">
     Only supported devices are shown.
   </message>
-  <message name="IDS_SETTINGS_CROSTINI_SHARED_USB_DEVICES_LIST_EMPTY_MESSAGE" desc="Message shown when there are no avaiable USB devices.">
+  <message name="IDS_SETTINGS_CROSTINI_SHARED_USB_DEVICES_LIST_EMPTY_MESSAGE" desc="Message shown when there are no available USB devices.">
     Available USB devices will appear here.
   </message>
   <message name="IDS_SETTINGS_CROSTINI_SHARED_USB_DEVICES_IN_USE" desc="Dialog title describing that a USB device is currently in use.">
@@ -1574,7 +1574,7 @@ Press an assigned switch to remove assignment.
   <message name="IDS_SETTINGS_ANDROID_APPS_DISABLE_DIALOG_REMOVE" desc="Label for confirmation button in the disable android apps dialog.">
     Remove Android apps
   </message>
-  <message name="IDS_SETTINGS_ANDROID_APPS_MANAGE_APP_LINKS" desc="Label for accessing app preferrences on ARC side.">
+  <message name="IDS_SETTINGS_ANDROID_APPS_MANAGE_APP_LINKS" desc="Label for accessing app preferences on ARC side.">
     Manage Play app links
   </message>
 
@@ -1632,10 +1632,10 @@ Press an assigned switch to remove assignment.
   <message name="IDS_SETTINGS_BLUETOOTH_DEVICE_LIST_UNPAIRED" desc="Title of the settings subsection listing unpaired Bluetooth devices.">
     Unpaired devices
   </message>
-  <message name="IDS_SETTINGS_BLUETOOTH_CONNECT" desc="Bluetooth pairing dialog: Text for dropdown meny item to connect to a device.">
+  <message name="IDS_SETTINGS_BLUETOOTH_CONNECT" desc="Bluetooth pairing dialog: Text for dropdown menu item to connect to a device.">
     Connect
   </message>
-  <message name="IDS_SETTINGS_BLUETOOTH_DISCONNECT" desc="Bluetooth pairing dialog: dropdown meny item to disconnect from a device.">
+  <message name="IDS_SETTINGS_BLUETOOTH_DISCONNECT" desc="Bluetooth pairing dialog: dropdown menu item to disconnect from a device.">
     Disconnect
   </message>
   <message name="IDS_SETTINGS_BLUETOOTH_TOGGLE_ACCESSIBILITY_LABEL" desc="Accessibility only label for Bluetooth enable/disable toggle.">
@@ -2051,7 +2051,7 @@ Press an assigned switch to remove assignment.
   <message name="IDS_SETTINGS_PRINTING_CUPS_IPP_URI_UNREACHABLE" desc="The message shown on the uri field of the add/edit printer dialogs when attempting to connect to an IPP printer that is not found on the network.">
     Couldn't detect a printer. Please enter printer address again.
   </message>
-  <message name="IDS_SETTINGS_PRINTING_CUPS_DIALOG_GENERAL_ERROR" desc="General message shown on the top of the add/edit printer dialogs when adding/editting a printer fails.">
+  <message name="IDS_SETTINGS_PRINTING_CUPS_DIALOG_GENERAL_ERROR" desc="General message shown on the top of the add/edit printer dialogs when adding/editing a printer fails.">
     Unable to set up printer. Please check configuration and try again.
   </message>
   <message name="IDS_SETTINGS_PRINTING_CUPS_PRINT_SERVER_FOUND_ZERO_PRINTERS" desc="Message shown on a toast to indicate no printers were found from a print server.">
@@ -2185,7 +2185,7 @@ Press an assigned switch to remove assignment.
   <message name="IDS_SETTINGS_INTERNET_KNOWN_NETWORKS_MESSAGE" desc="Message describing the behavior of the known networks page.">
     Preferred networks will be preferred over other known networks if more than one is available
   </message>
-  <message name="IDS_SETTINGS_INTERNET_KNOWN_NETWORKS_PREFFERED" desc="Title for list of preferred networks.">
+  <message name="IDS_SETTINGS_INTERNET_KNOWN_NETWORKS_PREFERRED" desc="Title for list of preferred networks.">
     Preferred networks
   </message>
   <message name="IDS_SETTINGS_INTERNET_KNOWN_NETWORKS_MENU_ADD_PREFERRED" desc="Settings &gt; Internet &gt; Known networks &gt; Dropdown menu item to add a network to the list of preferred networks.">
@@ -2359,7 +2359,7 @@ Press an assigned switch to remove assignment.
   <message name="IDS_SETTINGS_INTERNET_GMSCORE_NOTIFICATIONS_SECOND_STEP" desc="Second instruction for how to enable Google Play Services notifications on an Android phone. This step teaches the user how to look at notification settings for the Google Play Services app.">
     Tap App notifications &gt; Google Play services.
   </message>
-  <message name="IDS_SETTINGS_INTERNET_GMSCORE_NOTIFICATIONS_THIRD_STEP" desc="Third instruction for how to enable Google Play Services notifications on an Android phone. This step teaches the user how to enable notifications when already viewing noticiations settings for Google Play Services.">
+  <message name="IDS_SETTINGS_INTERNET_GMSCORE_NOTIFICATIONS_THIRD_STEP" desc="Third instruction for how to enable Google Play Services notifications on an Android phone. This step teaches the user how to enable notifications when already viewing notifications settings for Google Play Services.">
     Turn on Google Play services.
   </message>
   <message name="IDS_SETTINGS_INTERNET_GMSCORE_NOTIFICATIONS_FOURTH_STEP" desc="Fourth instruction for how to enable Google Play Services notifications on an Android phone. This step teaches the user how to enable the Instant Tethering notification channel for Google Play Services.">
@@ -2419,7 +2419,7 @@ Press an assigned switch to remove assignment.
   <message name="IDS_SETTINGS_INTERNET_TETHER_NOT_SETUP_WITH_LEARN_MORE_LINK" desc="Text shown when viewing the Mobile data page and no instant tether network is available">
     No device detected <ph name="BEGIN_LINK">&lt;a target="_blank" rel="noopener noreferrer" href="$1"&gt;</ph>Learn more<ph name="END_LINK">&lt;/a&gt;</ph>
   </message>
-  <message name="IDS_SETTINGS_INTERNET_SHOW_EID_POPUP_BUTTON_LABEL" desc="A11y and tooltop label for EID and QR code popup show button when viewing cellular network list">
+  <message name="IDS_SETTINGS_INTERNET_SHOW_EID_POPUP_BUTTON_LABEL" desc="A11y and tooltip label for EID and QR code popup show button when viewing cellular network list">
     Show device EID and QR code popup
   </message>
 
@@ -2700,7 +2700,7 @@ Press an assigned switch to remove assignment.
   </message>
 
   <!-- Kerberos section (OS settings) -->
-  <message name="IDS_OS_SETTINGS_KERBEROS" desc="Name of a section in the OS settings page." meaning="Manage Kerberos authetication tickets.">
+  <message name="IDS_OS_SETTINGS_KERBEROS" desc="Name of a section in the OS settings page." meaning="Manage Kerberos authentication tickets.">
     Kerberos
   </message>
 
@@ -3099,7 +3099,7 @@ Press an assigned switch to remove assignment.
   <message name="IDS_SETTINGS_DISPLAY_ZOOM_SLIDER_MAXIMUM" desc="In Device Settings &gt; Displays, the label of the maximum value for the display size slider">
     Large
   </message>
-  <message name="IDS_SETTINGS_DISPLAY_SCREEN" desc="In Device Settings &gt; Displays, the label for the dropdown menu for changing the dispay type.">
+  <message name="IDS_SETTINGS_DISPLAY_SCREEN" desc="In Device Settings &gt; Displays, the label for the dropdown menu for changing the display type.">
     Screen
   </message>
   <message name="IDS_SETTINGS_DISPLAY_SCREEN_EXTENDED" desc="The label for the dropdown menu list item to set the selected screen as extended display.">
@@ -3217,7 +3217,7 @@ Press an assigned switch to remove assignment.
   <message name="IDS_SETTINGS_TIME_ZONE_DETECTION_MODE_DISABLED" desc="Display name for the automatic time zone detection mode which disables automatic detection.">
     Automatic time zone detection is disabled
   </message>
-  <message name="IDS_SETTINGS_TIME_ZONE_DETECTION_MODE_IP_ONLY_DEFAULT" desc="Display name for the automatic time zone detection mode which enables time zone detection sending unprecise location to Brave servers. Default means that this is the default time zone detection mode.">
+  <message name="IDS_SETTINGS_TIME_ZONE_DETECTION_MODE_IP_ONLY_DEFAULT" desc="Display name for the automatic time zone detection mode which enables time zone detection sending imprecise location to Brave servers. Default means that this is the default time zone detection mode.">
     Use your IP address to determine location (default)
   </message>
   <message name="IDS_SETTINGS_TIME_ZONE_DETECTION_MODE_SEND_WIFI_AP" desc="Display name for the automatic time zone detection mode which enables time zone detection sending list of visible WiFi Access Point names to Brave servers.">
@@ -3306,7 +3306,7 @@ Press an assigned switch to remove assignment.
   <message name="IDS_SETTINGS_KEYBOARD_AUTO_REPEAT_FAST" desc="The label for the end of the auto-repeat rate slider, representing a fast repeat rate.">
     Fast
   </message>
-  <message name="IDS_SETTINGS_KEYBOARD_SHOW_SHORTCUT_VIEWER" desc="The link to open the keyboard shortut viewer.">
+  <message name="IDS_SETTINGS_KEYBOARD_SHOW_SHORTCUT_VIEWER" desc="The link to open the keyboard shortcut viewer.">
     View keyboard shortcuts
   </message>
   <message name="IDS_SETTINGS_KEYBOARD_SHOW_LANGUAGE_AND_INPUT" desc="The link to navigate to the language and input method settings.">
@@ -3408,7 +3408,7 @@ Press an assigned switch to remove assignment.
   <message name="IDS_SETTINGS_APPS_PLUGIN_VM_SHARED_USB_DEVICES_EXTRA_DESCRIPTION" desc="Extra description for managing shared USB devices.">
     Only supported devices are shown.
   </message>
-  <message name="IDS_SETTINGS_APPS_PLUGIN_VM_SHARED_USB_DEVICES_LIST_EMPTY_MESSAGE" desc="Message shown when there are no avaiable USB devices.">
+  <message name="IDS_SETTINGS_APPS_PLUGIN_VM_SHARED_USB_DEVICES_LIST_EMPTY_MESSAGE" desc="Message shown when there are no available USB devices.">
     Available USB devices will appear here.
   </message>
   <message name="IDS_SETTINGS_APPS_PLUGIN_VM_SHARED_USB_DEVICES_IN_USE" desc="Dialog title describing that a USB device is currently in use.">

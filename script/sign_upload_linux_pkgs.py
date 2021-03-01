@@ -129,7 +129,7 @@ def main():
             subprocess.check_output(gpgconf_cmd, shell=True)
             logging.info("\"gpgconf --kill gpg-agent\" succeeded")
         except subprocess.CalledProcessError as cpe:
-            loggint.error("Error: {}".format(cpe))
+            logging.error("Error: {}".format(cpe))
             exit(1)
         cmd = ['gpg2', '--batch', '--pinentry-mode', 'loopback', '--passphrase',
                gpg_passphrase, '--sign']
@@ -271,7 +271,7 @@ def download_linux_pkgs_from_github(args, logging):
 
     if len(file_list) < 2:
         logging.error(
-            "Cannot get both RPM and DEB files from Github! "
+            "Cannot get both RPM and DEB files from GitHub! "
             "Removing partially downloaded files from directory: {}".format(dist_dir))
         remove_github_downloaded_files(file_list, logging)
         exit(1)

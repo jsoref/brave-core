@@ -6,9 +6,9 @@ export const dummyData = {
   thirdPartyCookiesBlocked: '2',
   thirdPartyScriptsBlocked: '2',
   thirdPartyDeviceRecognitionBlocked: '2',
-  pishingMalwareBlocked: '2',
+  phishingMalwareBlocked: '2',
   connectionsEncrypted: '2',
-  noScriptsResouces: {
+  noScriptsResources: {
     'https://imasdk.googleapis.com/js/sdkloader/ima3.js': {
       actuallyBlocked: true,
       willBlock: true,

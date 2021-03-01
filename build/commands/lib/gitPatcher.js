@@ -33,7 +33,7 @@ const patchApplyReasonMessages = [
   `The target file was modified since the patch was last applied.`
 ]
 
-// Intrepret `--numstat -z` line format
+// Interpret `--numstat -z` line format
 // https://regex101.com/r/jP1JEP/1
 const regexGitApplyNumStats = /^((\d|-)+\s+){2}/
 
@@ -219,7 +219,7 @@ module.exports = class GitPatcher {
       }
     }
     this.logProgressLine('All patch apply done.')
-    // Create Patch Info file using post-patch repo file cheksums
+    // Create Patch Info file using post-patch repo file checksums
     // (in parallel)
     const patchInfoOps = []
     for (const { appliesTo, patchPath, patchInfoPath } of patchSets.filter(p => !p.error)) {
@@ -258,7 +258,7 @@ module.exports = class GitPatcher {
     return ( await util.runGitAsync(this.repoPath, applyStatArgs) )
     .split(os.EOL)
     .filter(s => s)
-    // Intrepret `--numstat -z` line format
+    // Interpret `--numstat -z` line format
     .map(s => ({
       path: s.replace(regexGitApplyNumStats, '').replace(/\0/g, '')
     }))
@@ -302,7 +302,7 @@ module.exports = class GitPatcher {
     }
     let resetWasSuccessful = true
     // Don't worry about errors with resetting obsolete patch files,
-    // some paths probably don't exist anymores
+    // some paths probably don't exist anymore
     const resetOp = this.resetRepoFiles(allPaths)
       .catch(() => {
         resetWasSuccessful = false

@@ -116,12 +116,12 @@ BraveBrowserView::BraveBrowserView(std::unique_ptr<Browser> browser)
 
   // Wrap |contents_container_| within our new |brave_contents_container_|.
   // |brave_contents_container_| also contains sidebar.
-  auto orignal_contents_container = RemoveChildViewT(contents_container_);
+  auto original_contents_container = RemoveChildViewT(contents_container_);
   sidebar_container_view_ = brave_contents_container->AddChildView(
       std::make_unique<SidebarContainerView>(
           static_cast<BraveBrowser*>(browser_.get())));
   original_contents_container_ = brave_contents_container->AddChildView(
-      std::move(orignal_contents_container));
+      std::move(original_contents_container));
   brave_contents_container->SetLayoutManager(
       std::make_unique<BraveContentsLayoutManager>(
           sidebar_container_view_, original_contents_container_));
@@ -217,7 +217,7 @@ void BraveBrowserView::OnTabStripModelChanged(
   BrowserView::OnTabStripModelChanged(tab_strip_model, change, selection);
 
   if (change.type() != TabStripModelChange::kSelectionOnly) {
-    // Stop tab cycling if tab is closed dusing the cycle.
+    // Stop tab cycling if tab is closed during the cycle.
     // This can happen when tab is closed by shortcut (ex, ctrl + F4).
     // After stopping, current tab cycling, new tab cycling will be started.
     StopTabCycling();

@@ -215,14 +215,14 @@ bool BraveWalletService::LoadRootSeedInfo(std::vector<uint8_t> key,
     BraveWalletService::SaveToPrefs(prefs, cipher_seed, nonce);
   }
   // We should have the correct nonce size and seed size at this point
-  // regardless of if it was newly genearted or retrieved from prefs.
+  // regardless of if it was newly generated or retrieved from prefs.
   DCHECK_EQ(nonce.size(), BraveWalletService::kNonceByteLength);
   DCHECK_EQ(seed->size(), BraveWalletService::kSeedByteLength);
   return true;
 }
 
 // The return value is passed to chrome.braveWallet.getWalletSeed
-// via the second paramter callback function.
+// via the second parameter callback function.
 // The return value will not be the root seed, but instead a
 // deterministic hash of that seed with HKDF, so that we can use
 // other HKDF hashes with different info parameters for different purposes.
@@ -237,7 +237,7 @@ std::string BraveWalletService::GetWalletSeed(std::vector<uint8_t> key) {
 }
 
 // The return value is passed to chrome.braveWallet.getBitGoSeed
-// via the second paramter callback function.
+// via the second parameter callback function.
 // The return value will not be the root seed, but instead a
 // deterministic hash of that seed with HKDF, so that we can use
 // other HKDF hashes with different info parameters for different purposes.

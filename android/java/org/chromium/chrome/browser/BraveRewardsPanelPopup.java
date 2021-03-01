@@ -174,7 +174,7 @@ public class BraveRewardsPanelPopup implements BraveRewardsObserver, BraveReward
     private boolean mClaimInProcess;
 
     private boolean mAutoContributeEnabled;
-    private boolean mPubInReccuredDonation;
+    private boolean mPubInRecurredDonation;
 
     private String batPointsText;
 
@@ -1015,7 +1015,7 @@ public class BraveRewardsPanelPopup implements BraveRewardsObserver, BraveReward
         public View getView(int position, View view, ViewGroup viewGroup) {
             TextView tv;
             if (null == view) {
-                tv = (TextView)inflater.inflate(R.layout.brave_rewards_spinnner_item, null);
+                tv = (TextView)inflater.inflate(R.layout.brave_rewards_spinner_item, null);
             } else {
                 tv = (TextView)view;
             }
@@ -1032,7 +1032,7 @@ public class BraveRewardsPanelPopup implements BraveRewardsObserver, BraveReward
 
             TextView tv;
             if (null == convertView) {
-                tv = (TextView)inflater.inflate(R.layout.brave_rewards_spinnner_item_dropdown, null);
+                tv = (TextView)inflater.inflate(R.layout.brave_rewards_spinner_item_dropdown, null);
             } else {
                 tv = (TextView)convertView;
             }
@@ -1147,9 +1147,9 @@ public class BraveRewardsPanelPopup implements BraveRewardsObserver, BraveReward
 
                 double value = 0;
                 String valueString = "";
-                String[] splittedValue = args[3].split("\\.", 0);
+                String[] splitValue = args[3].split("\\.", 0);
                 // 18 digits is a probi min digits count
-                if (splittedValue.length != 0 && splittedValue[0].length() >= 18) {
+                if (splitValue.length != 0 && splitValue[0].length() >= 18) {
                     value = BraveRewardsHelper.probiToDouble(args[3]);
                     valueString = Double.isNaN(value) ?
                                   ERROR_CONVERT_PROBI : String.format("%.3f", value);
@@ -1276,17 +1276,17 @@ public class BraveRewardsPanelPopup implements BraveRewardsObserver, BraveReward
         Spanned toInsert = BraveRewardsHelper.spannedFromHtmlString(stringToInsert);
         tv.setText(toInsert);
 
-        SetNotificationButtoClickListener();
+        SetNotificationButtonClickListener();
     }
 
-    private void SetNotificationButtoClickListener() {
+    private void SetNotificationButtonClickListener() {
         Button btClaimOk = (Button)root.findViewById(R.id.br_claim_button);
         String strAction = (btClaimOk != null && mBraveRewardsNativeWorker != null ) ? btClaimOk.getText().toString() : "";
         if (strAction.equals(root.getResources().getString(R.string.ok))) {
             btClaimOk.setOnClickListener( new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    // This is custom Android notification and thus should be dismissed intead of
+                    // This is custom Android notification and thus should be dismissed instead of
                     // deleting
                     if (currentNotificationId.equals(REWARDS_PROMOTION_CLAIM_ERROR_ID)) {
                         DismissNotification(currentNotificationId);
@@ -1621,14 +1621,14 @@ public class BraveRewardsPanelPopup implements BraveRewardsObserver, BraveReward
     @Override
     public void OnRecurringDonationUpdated() {
         String pubId = mBraveRewardsNativeWorker.GetPublisherId(currentTabId);
-        mPubInReccuredDonation = mBraveRewardsNativeWorker.IsCurrentPublisherInRecurrentDonations(pubId);
+        mPubInRecurredDonation = mBraveRewardsNativeWorker.IsCurrentPublisherInRecurrentDonations(pubId);
 
-        //all (mPubInReccuredDonation, mAutoContributeEnabled) are false: exit
+        //all (mPubInRecurredDonation, mAutoContributeEnabled) are false: exit
         //one is true: ac_enabled_controls on
         //mAutoContributeEnabled: attention_layout and include_in_ac_layout on
-        //mPubInReccuredDonation: auto_tip_layout is on
+        //mPubInRecurredDonation: auto_tip_layout is on
 
-        if (mAutoContributeEnabled || mPubInReccuredDonation) {
+        if (mAutoContributeEnabled || mPubInRecurredDonation) {
             root.findViewById(R.id.ac_enabled_controls).setVisibility(View.VISIBLE);
 
             if (mAutoContributeEnabled) {
@@ -1640,7 +1640,7 @@ public class BraveRewardsPanelPopup implements BraveRewardsObserver, BraveReward
 
             //Temporary commented out due to dropdown spinner inflating issue on PopupWindow (API 24)
             /*
-            if (mPubInReccuredDonation){
+            if (mPubInRecurredDonation){
                 double amount  = mBraveRewardsNativeWorker.GetPublisherRecurrentDonationAmount(pubId);
                 UpdateRecurentDonationSpinner(amount);
                 root.findViewById(R.id.auto_tip_layout).setVisibility(View.VISIBLE);
@@ -1814,7 +1814,7 @@ public class BraveRewardsPanelPopup implements BraveRewardsObserver, BraveReward
                 case BraveRewardsExternalWallet.PENDING:
                 case BraveRewardsExternalWallet.VERIFIED:
                     if (walletBalance < WALLET_BALANCE_LIMIT && !isVerifyWalletEnabled()) {
-                        Toast.makeText(ContextUtils.getApplicationContext(), root.getResources().getString(R.string.required_minium_balance), Toast.LENGTH_SHORT).show();
+                        Toast.makeText(ContextUtils.getApplicationContext(), root.getResources().getString(R.string.required_minimum_balance), Toast.LENGTH_SHORT).show();
                     } else {
                         int requestCode =
                             (status == BraveRewardsExternalWallet.NOT_CONNECTED) ?
@@ -1827,7 +1827,7 @@ public class BraveRewardsPanelPopup implements BraveRewardsObserver, BraveReward
                 case BraveRewardsExternalWallet.DISCONNECTED_NOT_VERIFIED:
                 case BraveRewardsExternalWallet.DISCONNECTED_VERIFIED:
                     if (walletBalance < WALLET_BALANCE_LIMIT && !isVerifyWalletEnabled()) {
-                        Toast.makeText(ContextUtils.getApplicationContext(), root.getResources().getString(R.string.required_minium_balance), Toast.LENGTH_SHORT).show();
+                        Toast.makeText(ContextUtils.getApplicationContext(), root.getResources().getString(R.string.required_minimum_balance), Toast.LENGTH_SHORT).show();
                     } else {
                         if (!TextUtils.isEmpty(mExternal_wallet.mVerify_url)) {
                             dismiss();
@@ -1888,7 +1888,7 @@ public class BraveRewardsPanelPopup implements BraveRewardsObserver, BraveReward
 
     /**
      *  Show the "promotion claim failed" error message.
-     *  Succesful claims are dismissed by a notification.
+     *  Successful claims are dismissed by a notification.
      */
     @Override
     public void OnClaimPromotion(int error_code) {

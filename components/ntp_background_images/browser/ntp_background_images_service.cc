@@ -196,7 +196,7 @@ void NTPBackgroundImagesService::CheckSuperReferralComponent() {
               IsDefaultValue()) {
     // At first fresh launch, we should finish initial component downloading to
     // set initial state properly.
-    // But browser could be shutdown accidently before getting it anytime.
+    // But browser could be shutdown accidentally before getting it anytime.
     // If this happens, we have to handle this abnormal situation strictly.
     // If not, this install will be act as a non SR install forever.
     // To resolve that situation,
@@ -211,7 +211,7 @@ void NTPBackgroundImagesService::CheckSuperReferralComponent() {
     // initial component downloading is in-progress
     // So, We will try initialization again.
     // If referral code is non empty, that means browser is shutdown after
-    // getting referal code. In this case, we should start downloading mapping
+    // getting referral code. In this case, we should start downloading mapping
     // table.
     if ((local_pref_->GetBoolean(kReferralCheckedForPromoCodeFile) ||
          local_pref_->GetBoolean(kReferralInitialization)) &&
@@ -225,7 +225,7 @@ void NTPBackgroundImagesService::CheckSuperReferralComponent() {
     }
 
     // If referral code is empty here, this is fresh launch.
-    // If browser is crashed before fetching this install's promo code at fiirst
+    // If browser is crashed before fetching this install's promo code at first
     // launch, it can be handled here also because code would be empty at this
     // time.
     const std::string code = GetReferralPromoCode();

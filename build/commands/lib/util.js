@@ -231,7 +231,7 @@ const util = {
 
     // Copy xtb files for:
     // brave/app/resources/chromium_strings*.xtb
-    // brave/app/resources/generated_resoruces*.xtb
+    // brave/app/resources/generated_resources*.xtb
     // brave/components/strings/components_chromium_strings*.xtb
     // brave/browser/ui/android/strings/translations/android_chrome_strings*.xtb
     fileMap.add([path.join(braveAppDir, 'resources'), path.join(chromeAppDir, 'resources')])
@@ -285,7 +285,7 @@ const util = {
             Math.floor(new Date(fs.statSync(destinationFile).mtimeMs).getTime() / 1000)) {
           fs.copySync(sourceFile, destinationFile)
           // can't set the date in the past so update the source file
-          // to match the newly copied destionation file
+          // to match the newly copied destination file
           const date = fs.statSync(destinationFile).mtime
           fs.utimesSync(sourceFile, date, date)
           console.log(sourceFile + ' copied to ' + destinationFile)

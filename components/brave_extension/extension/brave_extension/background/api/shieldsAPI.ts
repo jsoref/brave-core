@@ -148,7 +148,7 @@ export const setAllowCosmeticFiltering = (origin: string, setting: string) => {
 }
 
 /**
- * Changes the http upgrdabable resources to be allows as is or blocked.
+ * Changes the http upgradable resources to be allows as is or blocked.
  * The https-everywhere service will come into effect if the resource is marked as blocked.
  * @param {string} origin the origin of the site to change the setting for
  * @return a promise which resolves when the setting is set
@@ -157,7 +157,7 @@ export const setAllowHTTPUpgradableResources = (origin: string, setting: BlockOp
   chrome.braveShields.setHTTPSEverywhereEnabledAsync(setting === 'allow' ? false : true, origin)
 
 /**
- * Changes the Javascript to be on (allow) or off (block)
+ * Changes the JavaScript to be on (allow) or off (block)
  * @param {string} origin the origin of the site to change the setting for
  * @param {string} setting 'allow' or 'block'
  * @return a promise which resolves when the setting is set

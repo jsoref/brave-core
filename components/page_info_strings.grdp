@@ -77,7 +77,7 @@
   <message name="IDS_PAGE_INFO_MIXED_CONTENT_DETAILS" desc="A short paragraph explaining a partially insecure site to the user.">
     Attackers might be able to see the images you’re looking at on this site and trick you by modifying them.
   </message>
-  <message name="IDS_PAGE_INFO_LEGACY_TLS_DETAILS" desc="A short paragraph explaining to the user a site that uses deprecated security configrations.">
+  <message name="IDS_PAGE_INFO_LEGACY_TLS_DETAILS" desc="A short paragraph explaining to the user a site that uses deprecated security configurations.">
     This site uses an outdated security configuration, which may expose your information (for example, passwords or credit card numbers) when it is sent to this site.
   </message>
   <message name="IDS_PAGE_INFO_NOT_SECURE_DETAILS" desc="A short paragraph explaining a non-secure site to the user.">
@@ -249,7 +249,7 @@
     <message name="IDS_PAGE_INFO_TYPE_BACKGROUND_SYNC" desc="The label used for the background sync permission controls in the Page Info popup.">
       Background Sync
     </message>
-    <message name="IDS_PAGE_INFO_TYPE_IDLE_DETECTION" desc="The label used for the idle detection permission controlls in the Page Info popup.">
+    <message name="IDS_PAGE_INFO_TYPE_IDLE_DETECTION" desc="The label used for the idle detection permission controls in the Page Info popup.">
       Your presence
     </message>
     <message name="IDS_PAGE_INFO_TYPE_IMAGES" desc="The label used for images permission controls in the Page Info popup.">
@@ -402,7 +402,7 @@
     <message name="IDS_PAGE_INFO_USB_DEVICE_SECONDARY_LABEL" desc="The label displayed underneath the device name to inform the user that the item refers to a USB device.">
       USB device
     </message>
-    <message name="IDS_PAGE_INFO_USB_DEVICE_ALLOWED_BY_POLICY_LABEL" desc="The label displayed underneath the device name to inform the user that the item listed is refering to a USB device explicitly allowed by the user's enterprise policy.">
+    <message name="IDS_PAGE_INFO_USB_DEVICE_ALLOWED_BY_POLICY_LABEL" desc="The label displayed underneath the device name to inform the user that the item listed is referring to a USB device explicitly allowed by the user's enterprise policy.">
       USB device allowed by your administrator
     </message>
     <message name="IDS_PAGE_INFO_DELETE_USB_DEVICE" desc="The tooltip displayed when hovering over the button that will remove permission to access a USB device that the user previously granted to the site.">

@@ -32,7 +32,7 @@ export default class VisibilityTimer {
 
   startTracking () {
     document.addEventListener(
-      'visiblitychange',
+      'visibilitychange',
       this.handleVisibility
     )
     if (this.intersectionObserver && this.element) {
@@ -45,7 +45,7 @@ export default class VisibilityTimer {
     this.resetTimer()
     // Stop tracking visibility.
     document.removeEventListener(
-      'visiblitychange',
+      'visibilitychange',
       this.handleVisibility
     )
     if (this.intersectionObserver && this.element) {
@@ -70,7 +70,7 @@ export default class VisibilityTimer {
       return
     }
     this.timerId = setTimeout(() => {
-      // If we made it here, then we have received enough uninterupted time
+      // If we made it here, then we have received enough uninterrupted time
       // and we can call the provided function.
       this.stopTracking()
       this.onTimerExpired()

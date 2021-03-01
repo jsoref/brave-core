@@ -197,7 +197,7 @@ void CustomizeWebUIHTMLSource(const std::string &name,
         // Private Tab - Header Private Window with Tor
         { "headerTorTitle", IDS_BRAVE_PRIVATE_NEW_TAB_PRIVATE_WINDOW_TOR },
         { "headerTorText", IDS_BRAVE_PRIVATE_NEW_TAB_PRIVATE_WINDOW_TOR_DESC },
-        { "headerTorButton", IDS_BRAVE_PRIVATE_NEW_TAB_PRIVATE_WIONDOW_TOR_BUTTON },             // NOLINT
+        { "headerTorButton", IDS_BRAVE_PRIVATE_NEW_TAB_PRIVATE_WINDOW_TOR_BUTTON },             // NOLINT
 
         // Private Tab - Box for DDG
         { "boxDdgLabel", IDS_BRAVE_PRIVATE_NEW_TAB_BOX_DDG_LABEL },
@@ -461,19 +461,19 @@ void CustomizeWebUIHTMLSource(const std::string &name,
         { "contributionUpTo",  IDS_BRAVE_REWARDS_LOCAL_CONTR_UP_TO },
 
         { "deviceOffline", IDS_BRAVE_REWARDS_LOCAL_DEVICE_OFFLINE },
-        { "donationTitle",  IDS_BRAVE_REWARDS_LOCAL_DONAT_TITLE },
-        { "donationDesc",  IDS_BRAVE_REWARDS_LOCAL_DONAT_DESC },
-        { "donationTotalDonations",  IDS_BRAVE_REWARDS_LOCAL_DONAT_TOTAL_DONATIONS },            // NOLINT
-        { "donationTotalMonthlyContribution",  IDS_BRAVE_REWARDS_LOCAL_DONAT_TOTAL_MONTHLY_CONTRIBUTION },       // NOLINT
-        { "donationVisitSome",  IDS_BRAVE_REWARDS_LOCAL_DONAT_VISIT_SOME },
-        { "donationAbility",  IDS_BRAVE_REWARDS_LOCAL_DONAT_ABILITY },
-        { "donationAbilityYT",  IDS_BRAVE_REWARDS_LOCAL_DONAT_ABILITY_YT },
-        { "donationAbilityReddit", IDS_BRAVE_REWARDS_LOCAL_DONAT_ABILITY_REDT},
-        { "donationAbilityTwitter",  IDS_BRAVE_REWARDS_LOCAL_DONAT_ABILITY_TW },
-        { "donationAbilityGitHub",  IDS_BRAVE_REWARDS_LOCAL_DONAT_ABILITY_GH },
-        { "donationDisabledText1",  IDS_BRAVE_REWARDS_LOCAL_DONAT_DISABLED_TEXT1 },              // NOLINT
-        { "donationDisabledText2",  IDS_BRAVE_REWARDS_LOCAL_DONAT_DISABLED_TEXT2 },              // NOLINT
-        { "donationNextDate",  IDS_BRAVE_REWARDS_LOCAL_DONAT_NEXT_DATE },
+        { "donationTitle",  IDS_BRAVE_REWARDS_LOCAL_DONATE_TITLE },
+        { "donationDesc",  IDS_BRAVE_REWARDS_LOCAL_DONATE_DESC },
+        { "donationTotalDonations",  IDS_BRAVE_REWARDS_LOCAL_DONATE_TOTAL_DONATIONS },            // NOLINT
+        { "donationTotalMonthlyContribution",  IDS_BRAVE_REWARDS_LOCAL_DONATE_TOTAL_MONTHLY_CONTRIBUTION },       // NOLINT
+        { "donationVisitSome",  IDS_BRAVE_REWARDS_LOCAL_DONATE_VISIT_SOME },
+        { "donationAbility",  IDS_BRAVE_REWARDS_LOCAL_DONATE_ABILITY },
+        { "donationAbilityYT",  IDS_BRAVE_REWARDS_LOCAL_DONATE_ABILITY_YT },
+        { "donationAbilityReddit", IDS_BRAVE_REWARDS_LOCAL_DONATE_ABILITY_REDT},
+        { "donationAbilityTwitter",  IDS_BRAVE_REWARDS_LOCAL_DONATE_ABILITY_TW },
+        { "donationAbilityGitHub",  IDS_BRAVE_REWARDS_LOCAL_DONATE_ABILITY_GH },
+        { "donationDisabledText1",  IDS_BRAVE_REWARDS_LOCAL_DONATE_DISABLED_TEXT1 },              // NOLINT
+        { "donationDisabledText2",  IDS_BRAVE_REWARDS_LOCAL_DONATE_DISABLED_TEXT2 },              // NOLINT
+        { "donationNextDate",  IDS_BRAVE_REWARDS_LOCAL_DONATE_NEXT_DATE },
         { "monthlyContributionTitle",  IDS_BRAVE_REWARDS_LOCAL_MONTHLY_CONTRIBUTION_TITLE },     // NOLINT
         { "monthlyContributionDesc",  IDS_BRAVE_REWARDS_LOCAL_MONTHLY_CONTRIBUTION_DESC },       // NOLINT
         { "monthlyContributionEmpty", IDS_BRAVE_REWARDS_LOCAL_MONTHLY_CONTRIBUTION_EMPTY },      // NOLINT
@@ -565,7 +565,7 @@ void CustomizeWebUIHTMLSource(const std::string &name,
         { "dndCaptchaText2", IDS_BRAVE_UI_DND_CAPTCHA_TEXT_2 },
         { "donation", IDS_BRAVE_UI_DONATION },
         { "donationAmount", IDS_BRAVE_UI_DONATION_AMOUNT },
-        { "donationTips", IDS_BRAVE_REWARDS_LOCAL_DONAT_TITLE },
+        { "donationTips", IDS_BRAVE_REWARDS_LOCAL_DONATE_TITLE },
         { "donateMonthly", IDS_BRAVE_UI_DONATE_MONTHLY },
         { "donateNow", IDS_BRAVE_UI_DONATE_NOW },
         { "done", IDS_BRAVE_UI_DONE },
@@ -1098,7 +1098,7 @@ content::WebUIDataSource* CreateWebUIDataSource(
   // committing a Trusted Types related violation now that Trusted Types are
   // enforced on WebUI pages (see crrev.com/c/2234238 and crrev.com/c/2353547).
   // We should migrate those pages not to require using |innerHTML|, but for now
-  // we just restore pre-Cromium 87 behaviour for pages that are not ready yet.
+  // we just restore pre-Chromium 87 behaviour for pages that are not ready yet.
   if (disable_trusted_types_csp) {
     source->DisableTrustedTypesCSP();
   } else {

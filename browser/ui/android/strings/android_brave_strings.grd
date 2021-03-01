@@ -552,7 +552,7 @@ month...
       <message name="IDS_BRAVE_UI_RECURRING_DONATION" desc="A message about monthly tips">
         Monthly Tips
       </message>
-      <message name="IDS_BRAVE_UI_REWARDS_CONTRIBUTE_ATTENTION" desc="A message about user's attantion on a particular website">
+      <message name="IDS_BRAVE_UI_REWARDS_CONTRIBUTE_ATTENTION" desc="A message about user's attention on a particular website">
         Attention
       </message>
       <message name="IDS_BRAVE_UI_TOKEN_GRANT_CLAIMED" desc="A message about tokens being claimed">
@@ -582,7 +582,7 @@ month...
       <message name="IDS_BRAVE_UI_MONTH_YEAR" desc="Current year">
         <ph name="MONTH">%1$s<ex>DECEMBER</ex></ph> <ph name="YEAR">%2$s<ex>2018</ex></ph>
       </message>
-      <message name="IDS_BRAVE_UI_REWARDS_CONTRIBUTE_DESCRIPTION" desc="A notication message description about auto-contribute">
+      <message name="IDS_BRAVE_UI_REWARDS_CONTRIBUTE_DESCRIPTION" desc="A notification message description about auto-contribute">
         You've contributed <ph name="BAT_VALUE">%1$s<ex>50</ex></ph>  <ph name="BAT_TEXT">%2$s<ex>BAT</ex></ph>.
       </message>
       <message name="IDS_BRAVE_UI_NOTIFICATION_DESC_NO_FUNDS" desc="A notification about not enough funds">
@@ -1174,7 +1174,7 @@ until they verify, or until 90 days have passed.
       <message name="IDS_ADVANCED_CONTROLS" desc="Title for toggle section.">
         Advanced controls
       </message>
-      <message name="IDS_REQUIRED_MINIUM_BALANCE" desc="Text for verify wallet minimum required balance.">
+      <message name="IDS_REQUIRED_MINIMUM_BALANCE" desc="Text for verify wallet minimum required balance.">
         A minimum balance of 25 BAT is required to verify.
       </message>
       <message name="IDS_AUTOCOMPLETE_TOP_SITES_TITLE" desc="The label for settings switch controlling whether or not top sites show up in autocomplete">
@@ -1189,31 +1189,31 @@ until they verify, or until 90 days have passed.
       <message name="IDS_UPDATE_NOTIFICATION_TEXT" desc="Text of notification on application update.">
         Browse faster and block ads with Brave
       </message>
-      <message name="IDS_TOOLTIP_TITLE_1" desc="Shields tootltip title">
+      <message name="IDS_TOOLTIP_TITLE_1" desc="Shields tooltip title">
         Trackers &amp; ads blocked on this page.
       </message>
-      <message name="IDS_TOOLTIP_TEXT_1" desc="Shields tootltip text">
+      <message name="IDS_TOOLTIP_TEXT_1" desc="Shields tooltip text">
         Brave Shields just protected your privacy.
       </message>
-      <message name="IDS_TAKE_A_LOOK" desc="Shields tootltip button text">
+      <message name="IDS_TAKE_A_LOOK" desc="Shields tooltip button text">
         Take a look
       </message>
-      <message name="IDS_TOOLTIP_TITLE_2" desc="Shields tootltip title">
+      <message name="IDS_TOOLTIP_TITLE_2" desc="Shields tooltip title">
         Ads are blocked while watching videos on this website.
       </message>
-      <message name="IDS_TOOLTIP_TEXT_2" desc="Shields tootltip text">
+      <message name="IDS_TOOLTIP_TEXT_2" desc="Shields tooltip text">
         Videos without ads use less data.
       </message>
-      <message name="IDS_TOOLTIP_TITLE_3" desc="Shields tootltip title">
+      <message name="IDS_TOOLTIP_TITLE_3" desc="Shields tooltip title">
         10+ trackers &amp; ads blocked on this page.
       </message>
-      <message name="IDS_TOOLTIP_TEXT_3" desc="Shields tootltip text">
+      <message name="IDS_TOOLTIP_TEXT_3" desc="Shields tooltip text">
         Brave Shields protects your online privacy on every site.
       </message>
-      <message name="IDS_TOOLTIP_TITLE_4" desc="Shields tootltip title">
+      <message name="IDS_TOOLTIP_TITLE_4" desc="Shields tooltip title">
         Your connection is now encrypted.
       </message>
-      <message name="IDS_TOOLTIP_TEXT_4" desc="Shields tootltip text">
+      <message name="IDS_TOOLTIP_TEXT_4" desc="Shields tooltip text">
         If available, Brave upgrades you to a secure connection automatically.
       </message>
       <message name="IDS_BRAVE_WORKS_EVERYWHERE" desc="Cross promotional modal title text">
@@ -1222,31 +1222,31 @@ until they verify, or until 90 days have passed.
       <message name="IDS_DOWNLOAD_BRAVE" desc="Cross promotional modal text">
         Download Brave at brave.com on your laptop or tablet for a faster and more private web
       </message>
-      <message name="IDS_PRIVACY_PROTECTION" desc="Title for onboading bottomsheet.">
+      <message name="IDS_PRIVACY_PROTECTION" desc="Title for onboarding bottomsheet.">
         Privacy protection
       </message>
-      <message name="IDS_PRIVACY_PROTECTION_TEXT" desc="Text for onboading bottomsheet.">
+      <message name="IDS_PRIVACY_PROTECTION_TEXT" desc="Text for onboarding bottomsheet.">
         Brave stops ads &amp; trackers from collecting information about you without your consent.
       </message>
-      <message name="IDS_SAVE_DATA_AND_BATTERY" desc="Title for onboading bottomsheet.">
+      <message name="IDS_SAVE_DATA_AND_BATTERY" desc="Title for onboarding bottomsheet.">
         Save data and battery
       </message>
-      <message name="IDS_SAVE_DATA_AND_BATTERY_TEXT" desc="Text for onboading bottomsheet.">
+      <message name="IDS_SAVE_DATA_AND_BATTERY_TEXT" desc="Text for onboarding bottomsheet.">
         Without ads &amp; trackers, websites use less data and battery. You might even save money on carrier fees.
       </message>
-      <message name="IDS_WEBSITES_LOAD_FASTER" desc="Title for onboading bottomsheet.">
+      <message name="IDS_WEBSITES_LOAD_FASTER" desc="Title for onboarding bottomsheet.">
         Websites load faster
       </message>
-      <message name="IDS_WEBSITES_LOAD_FASTER_TEXT" desc="Text for onboading bottomsheet.">
+      <message name="IDS_WEBSITES_LOAD_FASTER_TEXT" desc="Text for onboarding bottomsheet.">
         Loading less data means websites in Brave load faster - up to 8x faster than other browsers.
       </message>
-      <message name="IDS_GET_WEEKLY_UPDATES" desc="Title for onboading bottomsheet.">
+      <message name="IDS_GET_WEEKLY_UPDATES" desc="Title for onboarding bottomsheet.">
         Get weekly updates
       </message>
-      <message name="IDS_GET_WEEKLY_UPDATES_TEXT" desc="Text for onboading bottomsheet.">
+      <message name="IDS_GET_WEEKLY_UPDATES_TEXT" desc="Text for onboarding bottomsheet.">
         Be informed about which websites you visit are the most privacy invasive.\n\nOnly you can see these privacy statistics. No personal data or browsing history ever leaves the Brave browser on your device.
       </message>
-      <message name="IDS_TURN_ON_PRIVACY_STATS" desc="Button text for onboading bottomsheet.">
+      <message name="IDS_TURN_ON_PRIVACY_STATS" desc="Button text for onboarding bottomsheet.">
         Turn on privacy reports
       </message>
       <message name="IDS_WEEK" desc="Tab title text">
@@ -1327,7 +1327,7 @@ until they verify, or until 90 days have passed.
       <message name="IDS_START_BROWSING_TO_SEE" desc="Brave stats empty text">
         Start browsing to see privacy reporting
       </message>
-      <message name="IDS_SET_BRAVE_AS_YOUR" desc="Deafult browser notification text">
+      <message name="IDS_SET_BRAVE_AS_YOUR" desc="Default browser notification text">
         Set Brave as your default browser for private and secure browsing.
       </message>
       <message name="IDS_ALLOWS_BRAVE_TO_SHOW" desc="Brave stats pref summary text">
@@ -1471,7 +1471,7 @@ until they verify, or until 90 days have passed.
       <message name="IDS_CONFIRM_CONVERT_BINANCE" desc="Button text for Binance convert">
         Confirm (<ph name="REMAINING_TIME">%1$s</ph>s)
       </message>
-      <message name="IDS_CONVERSION_FAILED" desc="Binance convesion failed text">
+      <message name="IDS_CONVERSION_FAILED" desc="Binance conversion failed text">
         Conversion Failed. Please try again.
       </message>
       <message name="IDS_SEARCH_COIN" desc="Binance deposit search text">

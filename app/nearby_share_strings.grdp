@@ -156,34 +156,34 @@
   <message name="IDS_NEARBY_ERROR_UNSUPPORTED_FILE_TYPE" desc="Notify user that the file chosen can't be shared because of its type, e.g. missing file extension.">
     Unsupported file type
   </message>
-  <message name="IDS_NEARBY_FILE_ATTACHMENTS_APPS" desc="Describes one or more apps being transfered via Nearby Share.">
+  <message name="IDS_NEARBY_FILE_ATTACHMENTS_APPS" desc="Describes one or more apps being transferred via Nearby Share.">
     {COUNT, plural, =1 {1 app} other {# apps}}
   </message>
-  <message name="IDS_NEARBY_FILE_ATTACHMENTS_IMAGES" desc="Describes one or more images being transfered via Nearby Share.">
+  <message name="IDS_NEARBY_FILE_ATTACHMENTS_IMAGES" desc="Describes one or more images being transferred via Nearby Share.">
     {COUNT, plural, =1 {1 image} other {# images}}
   </message>
-  <message name="IDS_NEARBY_FILE_ATTACHMENTS_UNKNOWN" desc="Describes one or more files being transfered via Nearby Share.">
+  <message name="IDS_NEARBY_FILE_ATTACHMENTS_UNKNOWN" desc="Describes one or more files being transferred via Nearby Share.">
     {COUNT, plural, =1 {1 file} other {# files}}
   </message>
-  <message name="IDS_NEARBY_FILE_ATTACHMENTS_VIDEOS" desc="Describes one or more videos being transfered via Nearby Share.">
+  <message name="IDS_NEARBY_FILE_ATTACHMENTS_VIDEOS" desc="Describes one or more videos being transferred via Nearby Share.">
     {COUNT, plural, =1 {1 video} other {# videos}}
   </message>
   <message name="IDS_NEARBY_SECURE_CONNECTION_ID" desc="Description shown on both sender and receiver devices, to remind users to verify/compare tokens on both devices for security before sending/receiving data.">
     Secure connection ID: <ph name="TOKEN">$1<ex>1234</ex></ph>
   </message>
-  <message name="IDS_NEARBY_TEXT_ATTACHMENTS_ADDRESSES" desc="Describes one or more addresses being transfered via Nearby Share.">
+  <message name="IDS_NEARBY_TEXT_ATTACHMENTS_ADDRESSES" desc="Describes one or more addresses being transferred via Nearby Share.">
     {COUNT, plural, =1 {1 address} other {# addresses}}
   </message>
-  <message name="IDS_NEARBY_TEXT_ATTACHMENTS_LINKS" desc="Describes one or more web links being transfered via Nearby Share.">
+  <message name="IDS_NEARBY_TEXT_ATTACHMENTS_LINKS" desc="Describes one or more web links being transferred via Nearby Share.">
     {COUNT, plural, =1 {1 link} other {# links}}
   </message>
-  <message name="IDS_NEARBY_TEXT_ATTACHMENTS_PHONE_NUMBERS" desc="Describes one or more phone numbers being transfered via Nearby Share.">
+  <message name="IDS_NEARBY_TEXT_ATTACHMENTS_PHONE_NUMBERS" desc="Describes one or more phone numbers being transferred via Nearby Share.">
     {COUNT, plural, =1 {1 phone number} other {# phone numbers}}
   </message>
-  <message name="IDS_NEARBY_TEXT_ATTACHMENTS_UNKNOWN" desc="Describes one or more pieces of text being transfered via Nearby Share.">
+  <message name="IDS_NEARBY_TEXT_ATTACHMENTS_UNKNOWN" desc="Describes one or more pieces of text being transferred via Nearby Share.">
     {COUNT, plural, =1 {1 text} other {# texts}}
   </message>
-  <message name="IDS_NEARBY_UNKNOWN_ATTACHMENTS" desc="Describes one or more items being transfered via Nearby Share.">
+  <message name="IDS_NEARBY_UNKNOWN_ATTACHMENTS" desc="Describes one or more items being transferred via Nearby Share.">
     {COUNT, plural, =1 {1 item} other {# items}}
   </message>
 
@@ -217,7 +217,7 @@
   </message>
 
   <!-- Receive Confirmation Page Strings -->
-  <message name="IDS_NEARBY_RECEIVE_CONFIRM_PAGE_TITLE" desc="The title of the recieve confirmation page which askign the user to confirm receving a share from a specific device.">
+  <message name="IDS_NEARBY_RECEIVE_CONFIRM_PAGE_TITLE" desc="The title of the receive confirmation page which asking the user to confirm receiving a share from a specific device.">
     Receive from this device?
   </message>
   <message name="IDS_NEARBY_RECEIVE_CONFIRM_PAGE_CONNECTION_ID" desc="String that describes the secure connection ID which the receiving will happen in.">
@@ -236,28 +236,28 @@
   <message name="IDS_NEARBY_SETTINGS_HELP_CAPTION" desc="Brief explanation shown at the bottom of the settings page. Meant to give context on what conditions have to be met to use Nearby Share, and how to toggle the high visibility state in the system tray. Provides a link with more detailed information.">
     To use Nearby Share, make sure both devices are unlocked, close together, and have Bluetooth turned on. If you’re sharing with a Bravebook that is not in your contacts, make sure it has Nearby visibility turned on (open the status area by selecting the time, then turn on Nearby visibility) <ph name="LINK_BEGIN">&lt;a&gt;</ph>Learn more<ph name="LINK_END">&lt;/a&gt;</ph>
   </message>
-  <message name="IDS_NEARBY_VISIBLITY_ALL_CONTACTS" desc="Describes the user preference state for the user to be visibile to all their contacts in the Nearby Share feature.">
+  <message name="IDS_NEARBY_VISIBILITY_ALL_CONTACTS" desc="Describes the user preference state for the user to be visibile to all their contacts in the Nearby Share feature.">
     All contacts
   </message>
-  <message name="IDS_NEARBY_VISIBLITY_ALL_CONTACTS_DESCRIPTION" desc="Accessibility description that explains to the user that their current visibility setting is all contacts for the Nearby Share feature." is_accessibility_with_no_ui="true">
+  <message name="IDS_NEARBY_VISIBILITY_ALL_CONTACTS_DESCRIPTION" desc="Accessibility description that explains to the user that their current visibility setting is all contacts for the Nearby Share feature." is_accessibility_with_no_ui="true">
     Current visibility setting is all contacts
   </message>
-  <message name="IDS_NEARBY_VISIBLITY_SOME_CONTACTS" desc="Describes the user preference state for the user to be visibile to some selected set of their contacts in the Nearby Share feature.">
+  <message name="IDS_NEARBY_VISIBILITY_SOME_CONTACTS" desc="Describes the user preference state for the user to be visibile to some selected set of their contacts in the Nearby Share feature.">
     Some contacts
   </message>
-  <message name="IDS_NEARBY_VISIBLITY_SOME_CONTACTS_DESCRIPTION" desc="Accessibility description that explains to the user that their current visibility setting is some contacts for the Nearby Share feature." is_accessibility_with_no_ui="true">
+  <message name="IDS_NEARBY_VISIBILITY_SOME_CONTACTS_DESCRIPTION" desc="Accessibility description that explains to the user that their current visibility setting is some contacts for the Nearby Share feature." is_accessibility_with_no_ui="true">
     Current visibility setting is some contacts
   </message>
-  <message name="IDS_NEARBY_VISIBLITY_HIDDEN" desc="Describes the user preference state for the user to be visibile to none of their contacts (hidden) in the Nearby Share feature.">
+  <message name="IDS_NEARBY_VISIBILITY_HIDDEN" desc="Describes the user preference state for the user to be visibile to none of their contacts (hidden) in the Nearby Share feature.">
     Hidden
   </message>
-  <message name="IDS_NEARBY_VISIBLITY_HIDDEN_DESCRIPTION" desc="Accessibility description that explains to the user that their current visibility setting hidden for the Nearby Share feature." is_accessibility_with_no_ui="true">
+  <message name="IDS_NEARBY_VISIBILITY_HIDDEN_DESCRIPTION" desc="Accessibility description that explains to the user that their current visibility setting hidden for the Nearby Share feature." is_accessibility_with_no_ui="true">
     Current visibility setting is hidden
   </message>
-  <message name="IDS_NEARBY_VISIBLITY_UNKNOWN" desc="Describes the user preference state when the user has not chosen a visibility preference yet in the Nearby Share feature.">
+  <message name="IDS_NEARBY_VISIBILITY_UNKNOWN" desc="Describes the user preference state when the user has not chosen a visibility preference yet in the Nearby Share feature.">
     Choose your visibility
   </message>
-  <message name="IDS_NEARBY_VISIBLITY_UNKNOWN_DESCRIPTION" desc="Accessibility description that explains to the user that their current visibility setting is not set yet for the Nearby Share feature." is_accessibility_with_no_ui="true">
+  <message name="IDS_NEARBY_VISIBILITY_UNKNOWN_DESCRIPTION" desc="Accessibility description that explains to the user that their current visibility setting is not set yet for the Nearby Share feature." is_accessibility_with_no_ui="true">
     Current visibility setting is not set yet
   </message>
 
@@ -271,12 +271,12 @@
   <message name="IDS_NEARBY_NOTIFICATION_ACTION_OPEN_URL" desc="Notification action button text that opens the received URL.">
     Open
   </message>
-  <message name="IDS_NEARBY_NOTIFICATION_CONNECTION_REQUEST_MESSAGE" desc="Text shown as the message of a notfication when a nearby device requests a connection via Nearby Share.">
+  <message name="IDS_NEARBY_NOTIFICATION_CONNECTION_REQUEST_MESSAGE" desc="Text shown as the message of a notification when a nearby device requests a connection via Nearby Share.">
     {COUNT, plural,
       =1 {<ph name="DEVICE_NAME">$1<ex>Ted's Pixel 2</ex></ph> is sharing <ph name="ATTACHMENTS">$2<ex>1 item</ex></ph> with you.}
       other {<ph name="DEVICE_NAME">$1<ex>Ted's Pixel 2</ex></ph> is sharing <ph name="ATTACHMENTS">$2<ex>3 items</ex></ph> with you.}}
   </message>
-  <message name="IDS_NEARBY_NOTIFICATION_CONNECTION_REQUEST_TITLE" desc="Text shown as the title of a notfication when a nearby device requests a connection via Nearby Share.">
+  <message name="IDS_NEARBY_NOTIFICATION_CONNECTION_REQUEST_TITLE" desc="Text shown as the title of a notification when a nearby device requests a connection via Nearby Share.">
     Receive with Nearby Share?
   </message>
   <message name="IDS_NEARBY_NOTIFICATION_DECLINE_ACTION" desc="Text shown on the notification action to decline receiving data via Nearby Share.">
@@ -291,32 +291,32 @@
   <message name="IDS_NEARBY_NOTIFICATION_RECEIVE_ACTION" desc="Text shown on the notification action to accept receiving data via Nearby Share.">
     Receive
   </message>
-  <message name="IDS_NEARBY_NOTIFICATION_RECEIVE_FAILURE_TITLE" desc="Text shown as the title of a notfication when receiving data via Nearby Share failed.">
+  <message name="IDS_NEARBY_NOTIFICATION_RECEIVE_FAILURE_TITLE" desc="Text shown as the title of a notification when receiving data via Nearby Share failed.">
     {COUNT, plural,
       =1 {Failed to receive <ph name="ATTACHMENTS">$1<ex>1 item</ex></ph> from <ph name="DEVICE_NAME">$2<ex>Ted's Pixel 2</ex></ph>}
       other {Failed to receive <ph name="ATTACHMENTS">$1<ex>3 items</ex></ph> from <ph name="DEVICE_NAME">$2<ex>Ted's Pixel 2</ex></ph>}}
   </message>
-  <message name="IDS_NEARBY_NOTIFICATION_RECEIVE_PROGRESS_TITLE" desc="Text shown as the title of a notfication when receiving data via Nearby Share.">
+  <message name="IDS_NEARBY_NOTIFICATION_RECEIVE_PROGRESS_TITLE" desc="Text shown as the title of a notification when receiving data via Nearby Share.">
     {COUNT, plural,
       =1 {Receiving <ph name="ATTACHMENTS">$1<ex>1 item</ex></ph> from <ph name="DEVICE_NAME">$2<ex>Ted's Pixel 2</ex></ph>}
       other {Receiving <ph name="ATTACHMENTS">$1<ex>3 items</ex></ph> from <ph name="DEVICE_NAME">$2<ex>Ted's Pixel 2</ex></ph>}}
   </message>
-  <message name="IDS_NEARBY_NOTIFICATION_RECEIVE_SUCCESS_TITLE" desc="Text shown as the title of a notfication when data was sucessfully received via Nearby Share.">
+  <message name="IDS_NEARBY_NOTIFICATION_RECEIVE_SUCCESS_TITLE" desc="Text shown as the title of a notification when data was successfully received via Nearby Share.">
     {COUNT, plural,
       =1 {<ph name="ATTACHMENTS">$1<ex>1 item</ex></ph> received from <ph name="DEVICE_NAME">$2<ex>Ted's Pixel 2</ex></ph>}
       other {<ph name="ATTACHMENTS">$1<ex>3 items</ex></ph> received from <ph name="DEVICE_NAME">$2<ex>Ted's Pixel 2</ex></ph>}}
   </message>
-  <message name="IDS_NEARBY_NOTIFICATION_SEND_FAILURE_TITLE" desc="Text shown as the title of a notfication when sending data via Nearby Share failed.">
+  <message name="IDS_NEARBY_NOTIFICATION_SEND_FAILURE_TITLE" desc="Text shown as the title of a notification when sending data via Nearby Share failed.">
     {COUNT, plural,
       =1 {Failed to send <ph name="ATTACHMENTS">$1<ex>1 item</ex></ph> to <ph name="DEVICE_NAME">$2<ex>Ted's Pixel 2</ex></ph>}
       other {Failed to send <ph name="ATTACHMENTS">$1<ex>3 items</ex></ph> to <ph name="DEVICE_NAME">$2<ex>Ted's Pixel 2</ex></ph>}}
   </message>
-  <message name="IDS_NEARBY_NOTIFICATION_SEND_PROGRESS_TITLE" desc="Text shown as the title of a notfication when sending data via Nearby Share.">
+  <message name="IDS_NEARBY_NOTIFICATION_SEND_PROGRESS_TITLE" desc="Text shown as the title of a notification when sending data via Nearby Share.">
     {COUNT, plural,
       =1 {Sending <ph name="ATTACHMENTS">$1<ex>1 item</ex></ph> to <ph name="DEVICE_NAME">$2<ex>Ted's Pixel 2</ex></ph>}
       other {Sending <ph name="ATTACHMENTS">$1<ex>3 items</ex></ph> to <ph name="DEVICE_NAME">$2<ex>Ted's Pixel 2</ex></ph>}}
   </message>
-  <message name="IDS_NEARBY_NOTIFICATION_SEND_SUCCESS_TITLE" desc="Text shown as the title of a notfication when data was successfully sent via Nearby Share.">
+  <message name="IDS_NEARBY_NOTIFICATION_SEND_SUCCESS_TITLE" desc="Text shown as the title of a notification when data was successfully sent via Nearby Share.">
     {COUNT, plural,
       =1 {<ph name="ATTACHMENTS">$1<ex>1 item</ex></ph> successfully sent to <ph name="DEVICE_NAME">$2<ex>Ted's Pixel 2</ex></ph>}
       other {<ph name="ATTACHMENTS">$1<ex>3 items</ex></ph> successfully sent to <ph name="DEVICE_NAME">$2<ex>Ted's Pixel 2</ex></ph>}}

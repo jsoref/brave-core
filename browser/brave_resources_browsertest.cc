@@ -11,8 +11,8 @@
 
 using BraveResourcesBrowserTest = InProcessBrowserTest;
 
-// Check brave's theme resources pacakges are properly added.
-IN_PROC_BROWSER_TEST_F(BraveResourcesBrowserTest, ResourceExistanceTest) {
+// Check brave's theme resources packages are properly added.
+IN_PROC_BROWSER_TEST_F(BraveResourcesBrowserTest, ResourceExistenceTest) {
   gfx::Image test_image =
       ui::ResourceBundle::GetSharedInstance().GetImageNamed(
           IDR_PRODUCT_LOGO_32_DEV);

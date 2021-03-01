@@ -260,7 +260,7 @@ AdNotificationViewMD::AdNotificationViewMD(const Notification& notification)
 
   click_activator_ = std::make_unique<ClickActivator>(this);
   // Reasons to use pretarget handler instead of OnMousePressed:
-  // - AdNotificationViewMD::OnMousePresssed would not fire on the inline reply
+  // - AdNotificationViewMD::OnMousePressed would not fire on the inline reply
   //   textfield click in native notification.
   // - To make it look similar to ArcNotificationContentView::EventForwarder.
   AddPreTargetHandler(click_activator_.get());
@@ -305,7 +305,7 @@ void AdNotificationViewMD::Layout() {
   if (actions_row_->GetVisible()) {
     constexpr SkScalar kCornerRadius = SkIntToScalar(kNotificationCornerRadius);
 
-    // Use vertically larger clip path, so that actions row's top coners will
+    // Use vertically larger clip path, so that actions row's top corners will
     // not be rounded.
     SkPath path;
     gfx::Rect bounds = actions_row_->GetLocalBounds();

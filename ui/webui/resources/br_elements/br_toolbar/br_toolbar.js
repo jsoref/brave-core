@@ -23,7 +23,7 @@ Polymer({
     // Tooltip to display on the menu button.
     menuLabel: String,
 
-    // Promotional toolstip string, shown in narrow mode if showMenuPromo is
+    // Promotional tooltip string, shown in narrow mode if showMenuPromo is
     // true.
     menuPromo: String,
 
@@ -140,7 +140,7 @@ Polymer({
   },
 
   initSlotFilledDetection: function() {
-    // Style the 'extra items' slot only if it containts
+    // Style the 'extra items' slot only if it contains
     // content.
     const toolbarExtraElement = this.$$('.toolbar-extra')
     if (!toolbarExtraElement) {

@@ -109,10 +109,10 @@ class NewTabPage extends React.Component<Props, State> {
   hasInitBraveToday: boolean = false
   imageSource?: string = undefined
   timerIdForBrandedWallpaperNotification?: number = undefined
-  onVisiblityTimerExpired = () => {
+  onVisibilityTimerExpired = () => {
     this.dismissBrandedWallpaperNotification(false)
   }
-  visibilityTimer = new VisibilityTimer(this.onVisiblityTimerExpired, 4000)
+  visibilityTimer = new VisibilityTimer(this.onVisibilityTimerExpired, 4000)
 
   componentDidMount () {
     // if a notification is open at component mounting time, close it
@@ -166,7 +166,7 @@ class NewTabPage extends React.Component<Props, State> {
   }
 
   trackBrandedWallpaperNotificationAutoDismiss () {
-    // Wait until page has been visible for an uninterupted Y seconds and then
+    // Wait until page has been visible for an uninterrupted Y seconds and then
     // dismiss the notification.
     this.visibilityTimer.startTracking()
   }
@@ -456,8 +456,8 @@ class NewTabPage extends React.Component<Props, State> {
   setGeminiAssetDepositQRCodeSrc = (asset: string, src: string) => {
     this.props.actions.onGeminiDepositQRForAsset(asset, src)
   }
-  setConvertableAssets = (asset: string, assets: string[]) => {
-    this.props.actions.onConvertableAssets(asset, assets)
+  setConvertibleAssets = (asset: string, assets: string[]) => {
+    this.props.actions.onConvertibleAssets(asset, assets)
   }
 
   setBinanceSelectedView = (view: string) => {
@@ -602,7 +602,7 @@ class NewTabPage extends React.Component<Props, State> {
     chrome.binance.getConvertAssets((assets: any) => {
       for (let asset in assets) {
         if (assets[asset]) {
-          this.setConvertableAssets(asset, assets[asset])
+          this.setConvertibleAssets(asset, assets[asset])
         }
       }
     })

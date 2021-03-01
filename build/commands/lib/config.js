@@ -188,7 +188,7 @@ Config.prototype.buildArgs = function () {
     brave_services_key: this.braveServicesKey,
     root_extra_deps: ["//brave"],
     // TODO: Re-enable when chromium_src overrides work for files in relative
-    // paths like widevine_cmdm_compoennt_installer.cc
+    // paths like widevine_cmdm_component_installer.cc
     // use_jumbo_build: !this.officialBuild,
     is_component_build: this.isComponentBuild(),
     is_universal_binary: this.isUniversalBinary,
@@ -364,7 +364,7 @@ Config.prototype.buildArgs = function () {
     args.ios_enable_code_signing = false
     args.fatal_linker_warnings = !this.isComponentBuild()
     // DCHECK's crash on Static builds without allowing the debugger to continue
-    // Can be removed when approprioate DCHECK's have been fixed:
+    // Can be removed when appropriate DCHECK's have been fixed:
     // https://github.com/brave/brave-browser/issues/10334
     args.dcheck_always_on = this.isDebug()
 

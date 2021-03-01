@@ -1463,7 +1463,7 @@ are declared in tools/grit/grit_rule.gni.
       <message name="IDS_DOWNLOAD_INTERRUPTED_STATUS_CONTENT_LENGTH_MISMATCH" desc="The download is incomplete as not all the data are received.">
         File incomplete
       </message>
-      <message name="IDS_DOWNLOAD_INTERRUPTED_DESCRIPTION_CONTENT_LENGTH_MISMATCH" desc="Download page message: Reveived fewer bytes than expected and the download was incomplete.">
+      <message name="IDS_DOWNLOAD_INTERRUPTED_DESCRIPTION_CONTENT_LENGTH_MISMATCH" desc="Download page message: Received fewer bytes than expected and the download was incomplete.">
         Destination file was incomplete due to a connection issue.
       </message>
       <message name="IDS_DOWNLOAD_INTERRUPTED_STATUS_SECURITY_CHECK_FAILED" desc="The security check performed on this download failed unexpectedly">
@@ -1577,7 +1577,7 @@ are declared in tools/grit/grit_rule.gni.
         <message name="IDS_DOWNLOAD_STATUS_DOWNLOAD_FAILED_TITLE" desc="The title of a download notification: the current download status is failed.">
                  <ph name="FILE_NAME">$1<ex>somedocument.pdf</ex></ph> download unsuccessful
         </message>
-        <message name="IDS_DOWNLOAD_STATUS_COMPLETE_TITLE" desc="The title of a download notification: the current download status is finished successufully.">
+        <message name="IDS_DOWNLOAD_STATUS_COMPLETE_TITLE" desc="The title of a download notification: the current download status is finished successfully.">
                  Download complete
         </message>
         <message name="IDS_DOWNLOAD_STATUS_PAGE_READY_TITLE" desc="The title of a download notification for offline pages not stored in Downloads.">
@@ -1900,27 +1900,27 @@ are declared in tools/grit/grit_rule.gni.
       </if>
       <if expr="is_macosx">
         <then>
-          <message name="IDS_PROMPT_APP_DEEP_SCANNING_ACCESSIBLE_ALERT" desc="The title of a download notification inidcating that the file may be malicious, and the Advanced Protection Program recommends sending the file to Brave. This message is for screen reader users">
+          <message name="IDS_PROMPT_APP_DEEP_SCANNING_ACCESSIBLE_ALERT" desc="The title of a download notification indicating that the file may be malicious, and the Advanced Protection Program recommends sending the file to Brave. This message is for screen reader users">
             <ph name="FILE_NAME">$1<ex>file.exe</ex></ph> may be dangerous. Send to Brave Advanced Protection for scanning?
           </message>
         </then>
         <else>
-          <message name="IDS_PROMPT_APP_DEEP_SCANNING_ACCESSIBLE_ALERT" desc="The title of a download notification inidcating that the file may be malicious, and the Advanced Protection Program recommends sending the file to Brave. This message is for screen reader users">
+          <message name="IDS_PROMPT_APP_DEEP_SCANNING_ACCESSIBLE_ALERT" desc="The title of a download notification indicating that the file may be malicious, and the Advanced Protection Program recommends sending the file to Brave. This message is for screen reader users">
             <ph name="FILE_NAME">$1<ex>file.exe</ex></ph> may be dangerous. Send to Brave Advanced Protection for scanning? Press Shift+F6 to cycle to the downloads bar area.
           </message>
         </else>
       </if>
-      <message name="IDS_DEEP_SCANNING_ACCESSIBLE_ALERT" desc="The title of a download notification inidcating that the file may be malicious, and the Advanced Protection Program recommends sending the file to Brave. This message is for screen reader users">
+      <message name="IDS_DEEP_SCANNING_ACCESSIBLE_ALERT" desc="The title of a download notification indicating that the file may be malicious, and the Advanced Protection Program recommends sending the file to Brave. This message is for screen reader users">
         <ph name="FILE_NAME">$1<ex>file.exe</ex></ph> is being scanned.
       </message>
       <if expr="is_macosx">
         <then>
-          <message name="IDS_PROMPT_DOWNLOAD_MIXED_CONTENT_BLOCKED_ACCESSIBLE_ALERT" desc="The title of a download notification inidcating that the download was delivered insecurely. This message is for screen reader users">
+          <message name="IDS_PROMPT_DOWNLOAD_MIXED_CONTENT_BLOCKED_ACCESSIBLE_ALERT" desc="The title of a download notification indicating that the download was delivered insecurely. This message is for screen reader users">
             <ph name="FILE_NAME">$1<ex>file.exe</ex></ph> can't be downloaded securely.
           </message>
         </then>
         <else>
-          <message name="IDS_PROMPT_DOWNLOAD_MIXED_CONTENT_BLOCKED_ACCESSIBLE_ALERT" desc="The title of a download notification inidcating that the download was delivered insecurely. This message is for screen reader users">
+          <message name="IDS_PROMPT_DOWNLOAD_MIXED_CONTENT_BLOCKED_ACCESSIBLE_ALERT" desc="The title of a download notification indicating that the download was delivered insecurely. This message is for screen reader users">
             <ph name="FILE_NAME">$1<ex>file.exe</ex></ph> can't be downloaded securely. Press Shift+F6 to cycle to the downloads bar area.
           </message>
         </else>
@@ -2175,7 +2175,7 @@ are declared in tools/grit/grit_rule.gni.
           This app was added by your organization. Restart the app to finish installing it.
       </message>
       <if expr="not use_titlecase">
-        <message name="IDS_FINISH_POLICY_WEB_APP_INSTALATION_RESTART" desc="The button in the Finish Policy Web App Installation dialog which closes the app and relaunches it.">
+        <message name="IDS_FINISH_POLICY_WEB_APP_INSTALLATION_RESTART" desc="The button in the Finish Policy Web App Installation dialog which closes the app and relaunches it.">
           Restart
         </message>
         <message name="IDS_FINISH_POLICY_WEB_APP_INSTALLATION_NOT_NOW" desc="The button in the Finish Policy Web App Installation dialog which dismisses the dialog.">
@@ -2183,7 +2183,7 @@ are declared in tools/grit/grit_rule.gni.
         </message>
       </if>
       <if expr="use_titlecase">
-        <message name="IDS_FINISH_POLICY_WEB_APP_INSTALATION_RESTART" desc="The button in the Finish Policy Web App Installation dialog which closes the app and relaunches it.">
+        <message name="IDS_FINISH_POLICY_WEB_APP_INSTALLATION_RESTART" desc="The button in the Finish Policy Web App Installation dialog which closes the app and relaunches it.">
           Restart
         </message>
         <message name="IDS_FINISH_POLICY_WEB_APP_INSTALLATION_NOT_NOW" desc="The button in the Finish Policy Web App Installation dialog which dismisses the dialog.">
@@ -2351,10 +2351,10 @@ are declared in tools/grit/grit_rule.gni.
         <message name="IDS_CREATE_SHORTCUTS_LABEL" desc="Contents of the main label in the create application shortcuts dialog explaining the dialog.">
           Add shortcuts to the following places:
         </message>
-        <message name="IDS_CREATE_SHORTCUTS_DESKTOP_CHKBOX" desc="Label of the checkbox to create an application shortcut on the desktop.">
+        <message name="IDS_CREATE_SHORTCUTS_DESKTOP_CHECKBOX" desc="Label of the checkbox to create an application shortcut on the desktop.">
           Desktop
         </message>
-        <message name="IDS_CREATE_SHORTCUTS_MENU_CHKBOX" desc="Label of the checkbox to create an application shortcut in the system's applications menu.">
+        <message name="IDS_CREATE_SHORTCUTS_MENU_CHECKBOX" desc="Label of the checkbox to create an application shortcut in the system's applications menu.">
           Applications menu
         </message>
         <message name="IDS_CREATE_SHORTCUTS_COMMIT" desc="Title of the button to actually create the shortcuts.">
@@ -2362,13 +2362,13 @@ are declared in tools/grit/grit_rule.gni.
         </message>
       </if>
       <if expr="is_win">
-        <message name="IDS_CREATE_SHORTCUTS_START_MENU_CHKBOX" desc="Label of the checkbox to create an application shortcut in the start menu.">
+        <message name="IDS_CREATE_SHORTCUTS_START_MENU_CHECKBOX" desc="Label of the checkbox to create an application shortcut in the start menu.">
           Start menu
         </message>
-        <message name="IDS_CREATE_SHORTCUTS_QUICK_LAUNCH_BAR_CHKBOX" desc="Label of the checkbox to create an application shortcut in quick launch bar.">
+        <message name="IDS_CREATE_SHORTCUTS_QUICK_LAUNCH_BAR_CHECKBOX" desc="Label of the checkbox to create an application shortcut in quick launch bar.">
           Quick launch bar
         </message>
-        <message name="IDS_PIN_TO_TASKBAR_CHKBOX" desc="Label of the checkbox to pin an application shortcut to taskbar.">
+        <message name="IDS_PIN_TO_TASKBAR_CHECKBOX" desc="Label of the checkbox to pin an application shortcut to taskbar.">
           Pin to Taskbar
         </message>
       </if>
@@ -2480,13 +2480,13 @@ are declared in tools/grit/grit_rule.gni.
       <message name="IDS_ALLOWED_MEDIASTREAM_CAMERA_BLOCK" desc="Radio button choice to block a site to access camera, displayed in bubble when a page is accessing camera.">
         Always block camera access
       </message>
-      <message name="IDS_BLOCKED_MEDIASTREAM_MIC_AND_CAMERA_NO_ACTION" desc="Radio button choice to block a site to access microphone and camera, displayed in bubble when a page was blocked from accesssing microphone and camera.">
+      <message name="IDS_BLOCKED_MEDIASTREAM_MIC_AND_CAMERA_NO_ACTION" desc="Radio button choice to block a site to access microphone and camera, displayed in bubble when a page was blocked from accessing microphone and camera.">
         Continue blocking camera and microphone access
       </message>
-      <message name="IDS_BLOCKED_MEDIASTREAM_MIC_NO_ACTION" desc="Radio button choice to block a site to access microphone, displayed in bubble when a page was blocked from accesssing microphone.">
+      <message name="IDS_BLOCKED_MEDIASTREAM_MIC_NO_ACTION" desc="Radio button choice to block a site to access microphone, displayed in bubble when a page was blocked from accessing microphone.">
         Continue blocking microphone access
       </message>
-      <message name="IDS_BLOCKED_MEDIASTREAM_CAMERA_NO_ACTION" desc="Radio button choice to block a site to access camera, displayed in bubble when a page was blocked from accesssing camera.">
+      <message name="IDS_BLOCKED_MEDIASTREAM_CAMERA_NO_ACTION" desc="Radio button choice to block a site to access camera, displayed in bubble when a page was blocked from accessing camera.">
         Continue blocking camera access
       </message>
       <message name="IDS_ALLOWED_MEDIASTREAM_MIC_AND_CAMERA_NO_ACTION" desc="Radio button choice to allow a site to access microphone and camera, displayed in bubble when a page is accessing microphone and camera.">
@@ -3404,7 +3404,7 @@ are declared in tools/grit/grit_rule.gni.
         <message name="IDS_TASK_MANAGER_NACL_PREFIX" desc="The prefix for a Task Manager Native Client module row">
           Native Client module: <ph name="NEXE_NAME">$1<ex>Unknown Native Client module</ex></ph>
         </message>
-        <message name="IDS_TASK_MANAGER_NACL_BROKER_PREFIX" desc="Task Manager row for Native Client broker, which acts as the sanbox manager for NaCl processes">
+        <message name="IDS_TASK_MANAGER_NACL_BROKER_PREFIX" desc="Task Manager row for Native Client broker, which acts as the sandbox manager for NaCl processes">
           Native Client security manager
         </message>
         <message name="IDS_TASK_MANAGER_GPU_PREFIX" desc="Task Manager row for the GPU process, which is the process doing all accelerated graphics rendering">
@@ -3491,7 +3491,7 @@ are declared in tools/grit/grit_rule.gni.
       </message>
 
       <!-- Critical Notification bubble -->
-      <message name="IDS_CRITICAL_NOTIFICATION_RESTART" desc="Button label a button on the bubble that appears when there is a critical update and Brave/Brave must restart to install it. Pressing the buton will cause Brave/Brave to restart.">
+      <message name="IDS_CRITICAL_NOTIFICATION_RESTART" desc="Button label a button on the bubble that appears when there is a critical update and Brave/Brave must restart to install it. Pressing the button will cause Brave/Brave to restart.">
         Restart now
       </message>
 
@@ -3744,7 +3744,7 @@ are declared in tools/grit/grit_rule.gni.
         <message name="IDS_EXTENSION_PROMPT_WARNING_CLIPBOARD_READWRITE" desc="Permission string for access to clipboard for read and write permission.">
           Read and modify data you copy and paste
         </message>
-        <message name="IDS_EXTENSION_PROMPT_WARNING_CLIPBOARD_WRITE" desc="Permission string for acess to clipboard for write permission.">
+        <message name="IDS_EXTENSION_PROMPT_WARNING_CLIPBOARD_WRITE" desc="Permission string for access to clipboard for write permission.">
           Modify data you copy and paste
         </message>
         <message name="IDS_EXTENSION_PROMPT_WARNING_DEBUGGER" desc="Permission string for access to debugger.">
@@ -3765,7 +3765,7 @@ are declared in tools/grit/grit_rule.gni.
         <message name="IDS_EXTENSION_PROMPT_WARNING_FAVICON" desc="Permission string for access to favicons.">
           Read the icons of the websites you visit
         </message>
-        <message name="IDS_EXTENSION_PROMPT_WARNING_GEOLOCATION" desc="Permisson string for access to geolocation.">
+        <message name="IDS_EXTENSION_PROMPT_WARNING_GEOLOCATION" desc="Permission string for access to geolocation.">
           Detect your physical location
         </message>
         <message name="IDS_EXTENSION_PROMPT_WARNING_HISTORY_READ" desc="Permission string for access to browsing history.">
@@ -3825,10 +3825,10 @@ are declared in tools/grit/grit_rule.gni.
         <message name="IDS_EXTENSION_PROMPT_WARNING_LOGIN_SCREEN_STORAGE" desc="Permission string for access to login screen storage.">
           Store persistent data on the login screen and inject credentials into the session.
         </message>
-        <message name="IDS_EXTENSION_PROMPT_WARNING_MANAGEMENT" desc="Permisson string for access to extension management.">
+        <message name="IDS_EXTENSION_PROMPT_WARNING_MANAGEMENT" desc="Permission string for access to extension management.">
           Manage your apps, extensions, and themes
         </message>
-        <message name="IDS_EXTENSION_PROMPT_WARNING_MDNS" desc="Permisson string for access to list of mDNS services on a network.">
+        <message name="IDS_EXTENSION_PROMPT_WARNING_MDNS" desc="Permission string for access to list of mDNS services on a network.">
           Discover devices on your local network
         </message>
         <message name="IDS_EXTENSION_PROMPT_WARNING_NETWORK_STATE" desc="Permission string for network list access.">
@@ -3900,7 +3900,7 @@ are declared in tools/grit/grit_rule.gni.
         <message name="IDS_EXTENSION_PROMPT_WARNING_USB_DEVICE_UNKNOWN_PRODUCT" desc="Permission string for access to a specific USB device with an unknown product ID.">
           Access USB devices from <ph name="VENDOR_NAME">$1<ex>Griffin Technology</ex></ph>
         </message>
-        <message name="IDS_EXTENSION_PROMPT_WARNING_USB_DEVICE_UNKNOWN_VENDOR" desc="Permission string for acceess to a specific USB device with an unknown vendor ID.">
+        <message name="IDS_EXTENSION_PROMPT_WARNING_USB_DEVICE_UNKNOWN_VENDOR" desc="Permission string for access to a specific USB device with an unknown vendor ID.">
           Access USB devices from an unknown vendor
         </message>
         <message name="IDS_EXTENSION_PROMPT_WARNING_VPN" desc="Permission string for access to VPN API.">
@@ -3964,13 +3964,13 @@ are declared in tools/grit/grit_rule.gni.
         <message name="IDS_EXTENSION_PROMPT_WARNING_DESKTOP_CAPTURE" desc="Permission string for Desktop Capture API.">
           Capture content of your screen
         </message>
-        <message name="IDS_EXTENSION_PROMPT_WARNING_ACCESSIBILITY_FEATURES_MODIFY" desc="Permission string for modifying acccessibility settings via extension API shown when an extension utilizing the API is installed.">
+        <message name="IDS_EXTENSION_PROMPT_WARNING_ACCESSIBILITY_FEATURES_MODIFY" desc="Permission string for modifying accessibility settings via extension API shown when an extension utilizing the API is installed.">
           Change your accessibility settings
         </message>
-        <message name="IDS_EXTENSION_PROMPT_WARNING_ACCESSIBILITY_FEATURES_READ" desc="Permission string for modifying acccessibility settings via extension API shown when a extension utilizing the API is installed.">
+        <message name="IDS_EXTENSION_PROMPT_WARNING_ACCESSIBILITY_FEATURES_READ" desc="Permission string for modifying accessibility settings via extension API shown when a extension utilizing the API is installed.">
           Read your accessibility settings
         </message>
-        <message name="IDS_EXTENSION_PROMPT_WARNING_ACCESSIBILITY_FEATURES_READ_MODIFY" desc="Permission string for reading and modifying acccessibility settings via extension API shown when an extension utilizing the API is installed.">
+        <message name="IDS_EXTENSION_PROMPT_WARNING_ACCESSIBILITY_FEATURES_READ_MODIFY" desc="Permission string for reading and modifying accessibility settings via extension API shown when an extension utilizing the API is installed.">
           Read and change your accessibility settings
         </message>
         <message name="IDS_EXTENSION_PROMPT_WARNING_PLATFORMKEYS" desc="Permission string for access to client certificates.">
@@ -4282,10 +4282,10 @@ are declared in tools/grit/grit_rule.gni.
       <message name="IDS_EXTENSION_PACK_DIALOG_ERROR_ROOT_REQUIRED" desc="Error message in pack extension dialog when the user does not specify a root directory.">
         Extension root directory is required.
       </message>
-      <message name="IDS_EXTENSION_PACK_DIALOG_ERROR_ROOT_INVALID" desc="Error message in pack extension dialog when the user speciifes an invalid root directory.">
+      <message name="IDS_EXTENSION_PACK_DIALOG_ERROR_ROOT_INVALID" desc="Error message in pack extension dialog when the user specifies an invalid root directory.">
         Extension root directory is invalid.
       </message>
-      <message name="IDS_EXTENSION_PACK_DIALOG_ERROR_KEY_INVALID" desc="Error message in pack extension dialog when the user speciifes an invalid key file.">
+      <message name="IDS_EXTENSION_PACK_DIALOG_ERROR_KEY_INVALID" desc="Error message in pack extension dialog when the user specifies an invalid key file.">
         Private key file is invalid.
       </message>
       <message name="IDS_EXTENSION_PACK_DIALOG_SUCCESS_BODY_NEW" desc="Message shown on successful packing of a new extension.">
@@ -4800,16 +4800,16 @@ Keep your key file in a safe place. You will need it to create new versions of y
       <!-- End of Sync Promo strings for Desktop Identity Consistency. -->
 
       <!-- Preview Stale Page UI -->
-      <message name="IDS_PREVIEWS_INFOBAR_TIMESTAMP_MINUTES" desc="The desciption stating how old a preview version of a page is in minutes. This is shown on the UI notifying the user that a preview page has been shown. The number of minutes will always be at least two so 'minutes' should be translated in the plural.">
+      <message name="IDS_PREVIEWS_INFOBAR_TIMESTAMP_MINUTES" desc="The description stating how old a preview version of a page is in minutes. This is shown on the UI notifying the user that a preview page has been shown. The number of minutes will always be at least two so 'minutes' should be translated in the plural.">
          Updated <ph name="MINUTES">$1<ex>30</ex></ph> min ago
       </message>
-      <message name="IDS_PREVIEWS_INFOBAR_TIMESTAMP_ONE_HOUR" desc="The desciption stating a preview version of a page is one hour old. This is shown on the UI notifying the user that a preview page has been shown.">
+      <message name="IDS_PREVIEWS_INFOBAR_TIMESTAMP_ONE_HOUR" desc="The description stating a preview version of a page is one hour old. This is shown on the UI notifying the user that a preview page has been shown.">
          Updated 1hr ago
       </message>
-      <message name="IDS_PREVIEWS_INFOBAR_TIMESTAMP_HOURS" desc="The desciption stating how old a preview version of a page is in hours. This is shown on the UI notifying the user that a preview page has been shown.">
+      <message name="IDS_PREVIEWS_INFOBAR_TIMESTAMP_HOURS" desc="The description stating how old a preview version of a page is in hours. This is shown on the UI notifying the user that a preview page has been shown.">
          Updated <ph name="HOURS">$1<ex>4</ex></ph> hrs ago
       </message>
-      <message name="IDS_PREVIEWS_INFOBAR_TIMESTAMP_UPDATED_NOW" desc="The desciption stating that a preview version of a page was just updated. This is shown on the UI notifying the user that a preview page has been shown.">
+      <message name="IDS_PREVIEWS_INFOBAR_TIMESTAMP_UPDATED_NOW" desc="The description stating that a preview version of a page was just updated. This is shown on the UI notifying the user that a preview page has been shown.">
          Updated just now
       </message>
 
@@ -4942,7 +4942,7 @@ Keep your key file in a safe place. You will need it to create new versions of y
       <message name="IDS_SETTINGS_STORAGE_PRESSURE_BUBBLE_VIEW_MESSAGE" desc="The message for the notification warning users that they are low on disk space, asking the user if they would like to go to the settings page and clear some data.">
         Some features on <ph name="ORIGIN">$1<ex>site.com</ex></ph> might not work until you clear data that other sites have stored on your device
       </message>
-      <message name="IDS_SETTINGS_STORAGE_PRESSURE_BUBBLE_VIEW_BUTTON_LABEL" desc="Label for default button on storage pressure buble view which will take users to a page to manage site storage.">
+      <message name="IDS_SETTINGS_STORAGE_PRESSURE_BUBBLE_VIEW_BUTTON_LABEL" desc="Label for default button on storage pressure bubble view which will take users to a page to manage site storage.">
         Choose sites to clear
       </message>
 
@@ -5511,7 +5511,7 @@ Keep your key file in a safe place. You will need it to create new versions of y
       <message name="IDS_NTP_MODULES_CART_CART_MENU_HIDE_MERCHANT_TOAST_MESSAGE" desc="Text shown in the toast confirming the cart for a specific merchant has been temporarily hidden. Note that the MERCHANT field can be either merchant name (e.g. Amazon) or domain (e.g. amazon.com).">
         <ph name="MERCHANT">$1<ex>Amazon</ex> hidden. You’ll see it again when you revisit your cart.</ph>
       </message>
-      <message name="IDS_NTP_MODULES_CART_CART_MENU_REMOVE_MERCHANT" desc="An option in the action menu of one cart in the chrome cart module. When clicked, cart from that merchant wil be permanently removed. Note that the MERCHANT field can be either merchant name (e.g. Amazon) or domain (e.g. amazon.com).">
+      <message name="IDS_NTP_MODULES_CART_CART_MENU_REMOVE_MERCHANT" desc="An option in the action menu of one cart in the chrome cart module. When clicked, cart from that merchant will be permanently removed. Note that the MERCHANT field can be either merchant name (e.g. Amazon) or domain (e.g. amazon.com).">
         Never show <ph name="MERCHANT">$1<ex>Amazon</ex></ph>
       </message>
       <message name="IDS_NTP_MODULES_CART_CART_MENU_REMOVE_MERCHANT_TOAST_MESSAGE" desc="Text shown in the toast confirming the cart for a specific merchant has been permanently removed. Note that the MERCHANT field can be either merchant name (e.g. Amazon) or domain (e.g. amazon.com).">
@@ -6211,19 +6211,19 @@ Keep your key file in a safe place. You will need it to create new versions of y
           Thank you for your feedback. You are offline now, and your report will be sent later.
         </message>
         <if expr="not chromeos">
-          <message name="IDS_FEEDBACK_INCLUDE_SYSTEM_INFORMATION_CHKBOX" desc="Checkbox for including system information on the bug report dialog box">
+          <message name="IDS_FEEDBACK_INCLUDE_SYSTEM_INFORMATION_CHECKBOX" desc="Checkbox for including system information on the bug report dialog box">
             Send <ph name="BEGIN_LINK1">&lt;a href="#" id="sys-info-url"&gt;</ph>system information<ph name="END_LINK1">&lt;/a&gt;</ph>
           </message>
         </if>
         <if expr="chromeos">
-          <message name="IDS_FEEDBACK_INCLUDE_SYSTEM_INFORMATION_AND_METRICS_CHKBOX" desc="Checkbox for including system information and metrics on the bug report dialog box">
+          <message name="IDS_FEEDBACK_INCLUDE_SYSTEM_INFORMATION_AND_METRICS_CHECKBOX" desc="Checkbox for including system information and metrics on the bug report dialog box">
             Send <ph name="BEGIN_LINK1">&lt;a href="#" id="sys-info-url"&gt;</ph>system information<ph name="END_LINK1">&lt;/a&gt;</ph> and <ph name="BEGIN_LINK2">&lt;a href="#" id="histograms-url"&gt;</ph>metrics<ph name="END_LINK2">&lt;/a&gt;</ph>
           </message>
-          <message name="IDS_FEEDBACK_INCLUDE_SYSTEM_INFORMATION_AND_METRICS_CHKBOX_ARC" desc="Checkbox for including system, metrics and app information on the bug report dialog box on an ARC enabled device">
+          <message name="IDS_FEEDBACK_INCLUDE_SYSTEM_INFORMATION_AND_METRICS_CHECKBOX_ARC" desc="Checkbox for including system, metrics and app information on the bug report dialog box on an ARC enabled device">
             Send <ph name="BEGIN_LINK1">&lt;a href="#" id="sys-info-url"&gt;</ph>system and app information<ph name="END_LINK1">&lt;/a&gt;</ph>, and <ph name="BEGIN_LINK2">&lt;a href="#" id="histograms-url"&gt;</ph>metrics<ph name="END_LINK2">&lt;/a&gt;</ph>
           </message>
         </if>
-        <message name="IDS_FEEDBACK_INCLUDE_ASSISTANT_INFORMATION_CHKBOX" desc="Checkbox for including Assistant debug information in the feedback report">
+        <message name="IDS_FEEDBACK_INCLUDE_ASSISTANT_INFORMATION_CHECKBOX" desc="Checkbox for including Assistant debug information in the feedback report">
           Include recent Assistant history via Sherlog. This may include your identity, location, and debug info. <ph name="BEGIN_LINK">&lt;a href="#" id="assistant-logs-info-link"&gt;</ph>Learn more<ph name="END_LINK">&lt;/a&gt;</ph>
         </message>
         <message name="IDS_FEEDBACK_ATTACH_FILE_NOTE" desc="Text for describing the maximum size for an attached file">
@@ -6771,13 +6771,13 @@ Keep your key file in a safe place. You will need it to create new versions of y
       </message>
 
       <!-- Screen Capture strings -->
-      <message name="IDS_MEDIA_SCREEN_CAPTURE_CONFIRMATION_TITLE" desc="Title for the prompt shown when screen capturing is requrested by an app.">
+      <message name="IDS_MEDIA_SCREEN_CAPTURE_CONFIRMATION_TITLE" desc="Title for the prompt shown when screen capturing is requested by an app.">
         <ph name="APP_NAME">$1<ex>html5rocks.com</ex></ph> Screen Sharing Request
       </message>
-      <message name="IDS_MEDIA_SCREEN_CAPTURE_CONFIRMATION_TEXT" desc="Text for the prompt shown when screen capturing is requrested by an app.">
+      <message name="IDS_MEDIA_SCREEN_CAPTURE_CONFIRMATION_TEXT" desc="Text for the prompt shown when screen capturing is requested by an app.">
         Do you want <ph name="APP_NAME">$1<ex>html5rocks.com</ex></ph> to share your screen?
       </message>
-      <message name="IDS_MEDIA_SCREEN_AND_AUDIO_CAPTURE_CONFIRMATION_TEXT" desc="Text for the prompt shown when screen and audio capturing is requrested by an app.">
+      <message name="IDS_MEDIA_SCREEN_AND_AUDIO_CAPTURE_CONFIRMATION_TEXT" desc="Text for the prompt shown when screen and audio capturing is requested by an app.">
         Do you want <ph name="APP_NAME">$1<ex>html5rocks.com</ex></ph> to share your screen and audio output?
       </message>
       <message name="IDS_MEDIA_SCREEN_CAPTURE_NOTIFICATION_TEXT" desc="label used in screen capture notification UI to show the screen sharing status when the stream is consumed by the same app initiating the window picker">
@@ -6826,7 +6826,7 @@ Keep your key file in a safe place. You will need it to create new versions of y
       </message>
 
       <!-- Misc strings for SSL UI -->
-      <message name="IDS_UNSAFE_FRAME_MESSAGE" desc="The text displayed in the content that is subsituted to an unsafe frame.">
+      <message name="IDS_UNSAFE_FRAME_MESSAGE" desc="The text displayed in the content that is substituted to an unsafe frame.">
         This frame was blocked because it contains some insecure content.
       </message>
 
@@ -7345,7 +7345,7 @@ Keep your key file in a safe place. You will need it to create new versions of y
         Reload
       </message>
 
-      <!-- Accessiblility strings for Infobars in Views -->
+      <!-- Accessibility strings for Infobars in Views -->
       <if expr="toolkit_views">
         <message name="IDS_ACCNAME_INFOBAR_CONTAINER" desc="The accessible name for the infobar container.">
           Infobar Container
@@ -8070,7 +8070,7 @@ Please help our engineers fix this problem. Tell us what happened right before y
 
       <!-- Sync strings -->
 
-      <!-- Shared between all the plaforms -->
+      <!-- Shared between all the platforms -->
       <message name="IDS_SYNC_ACCOUNT_INFO" desc="The message that appears in the options dialog indicating that the user is signed in with the given email address.">
         Signed in as <ph name="USER_EMAIL_ADDRESS">$1<ex>foo@gmail.com</ex></ph>.
       </message>
@@ -9028,7 +9028,7 @@ Please help our engineers fix this problem. Tell us what happened right before y
         <message name="IDS_CAMERA" desc="Description text for the camera.">
           Camera
         </message>
-        <message name="IDS_MIC" desc="Decription text for the microphone.">
+        <message name="IDS_MIC" desc="Description text for the microphone.">
           Microphone
         </message>
         <message name="IDS_TURNED_OFF" desc="Description text for the state of camera or microphone">
@@ -9037,7 +9037,7 @@ Please help our engineers fix this problem. Tell us what happened right before y
         <message name="IDS_CAMERA_TURNED_OFF" desc="Description text in the omnibox icon showing when camera permission is turned off.">
           Camera turned off
         </message>
-        <message name="IDS_MIC_TURNED_OFF" desc="Decription text in the omnibox icon showing when microphone permission is turned off.">
+        <message name="IDS_MIC_TURNED_OFF" desc="Description text in the omnibox icon showing when microphone permission is turned off.">
           Microphone turned off
         </message>
       </if>
@@ -9728,7 +9728,7 @@ Please help our engineers fix this problem. Tell us what happened right before y
         <message name="IDS_A11Y_ALERT_WINDOW_OVERVIEW_MODE_ENTERED" desc="The accessible text read when the user enters window overview mode in Ash.">
           Entered window overview mode. Swipe to navigate, or press tab if using a keyboard.
         </message>
-        <message name="IDS_A11Y_ALERT_WORKSPACE_FULLSCREEN_STATE_ENTERED" desc="The accessible text read when the current workspace state changes to fullscreen, which means the window in current workspace is fullcreen.">
+        <message name="IDS_A11Y_ALERT_WORKSPACE_FULLSCREEN_STATE_ENTERED" desc="The accessible text read when the current workspace state changes to fullscreen, which means the window in current workspace is fullscreen.">
           Entered full screen
         </message>
         <message name="IDS_A11Y_ALERT_WORKSPACE_FULLSCREEN_STATE_EXITED" desc="The accessible text read when the current workspace state changes from fullscreen to others, which means the window in current workspace is not fullscreen.">
@@ -10337,7 +10337,7 @@ Please help our engineers fix this problem. Tell us what happened right before y
       </message>
     </if>
 
-    <!-- Web-modal dialog shown during Web Authenticaton API requests. -->
+    <!-- Web-modal dialog shown during Web Authentication API requests. -->
     <if expr="is_win or is_macosx or desktop_linux or chromeos">
       <message name="IDS_WEBAUTHN_GENERIC_TITLE" desc="Title of most dialogs shown while the user is authenticating on a web site using a security key.">
         Use your security key with <ph name="APP_NAME">$1<ex>google.com</ex></ph>
@@ -10581,7 +10581,7 @@ Please help our engineers fix this problem. Tell us what happened right before y
     <message name="IDS_INCOGNITO_PROFILE_MENU_TITLE" desc="The title of the private version of profile menu.">
       Private
     </message>
-    <message name="IDS_INCOGNITO_WINDOW_COUNT_MESSAGE" desc="The message showing the number of open incogntio windows. This is not used for zero windows.[ICU Syntax]">
+    <message name="IDS_INCOGNITO_WINDOW_COUNT_MESSAGE" desc="The message showing the number of open incognito windows. This is not used for zero windows.[ICU Syntax]">
       {0, plural,
         =1 {# open window}
         other {# open windows}
@@ -10715,7 +10715,7 @@ Please help our engineers fix this problem. Tell us what happened right before y
     </message>
 
     <!-- Deep scanning timed out dialog -->
-    <message name="IDS_DEEP_SCANNING_TIMED_OUT_DIALOG_TITLE" desc="Title shown in tab modal dialog when deep scaning times out.">
+    <message name="IDS_DEEP_SCANNING_TIMED_OUT_DIALOG_TITLE" desc="Title shown in tab modal dialog when deep scanning times out.">
       Timed out
     </message>
     <message name="IDS_DEEP_SCANNING_TIMED_OUT_DIALOG_MESSAGE" desc="Message shown in tab modal dialog when the deep scanning times out.">

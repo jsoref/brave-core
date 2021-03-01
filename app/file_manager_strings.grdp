@@ -305,7 +305,7 @@
     Error installing Linux application
   </message>
   <message name="IDS_FILE_BROWSER_INSTALL_LINUX_PACKAGE_ERROR_DESCRIPTION" desc="In the File Manager, the dialog message when a Linux application installation fails.">
-    An error occured during installation of your Linux application.
+    An error occurred during installation of your Linux application.
   </message>
 
   <message name="IDS_FILE_BROWSER_GALLERY_NO_IMAGES" desc="In the Gallery, the message that there are no images in this directory.">
@@ -443,7 +443,7 @@
     This file is not available offline.
   </message>
 
-  <message name="IDS_FILE_BROWSER_RECOVERED_FILES_FROM_GOOGLE_DRIVE_DIRECTORY_NAME" desc="The name of the direcotry which stores files recovered from Brave Drive directory when the locally stored Brave Drive data is found to be broken.">
+  <message name="IDS_FILE_BROWSER_RECOVERED_FILES_FROM_GOOGLE_DRIVE_DIRECTORY_NAME" desc="The name of the directory which stores files recovered from Brave Drive directory when the locally stored Brave Drive data is found to be broken.">
     Recovered files from Brave Drive
   </message>
 
@@ -743,10 +743,10 @@
   <message name="IDS_FILE_BROWSER_SYNC_PROGRESS_SUMMARY" desc="Summary message for drive sync operation. This message can be shown without a progress bar.">
     Syncing...
   </message>
-  <message name="IDS_FILE_BROWSER_ERROR_PROGRESS_SUMMARY" desc="Summary message for an error above the progress bar. This message may be placed at the next to ohter *_PROGERSS_SUMMARY messages.">
+  <message name="IDS_FILE_BROWSER_ERROR_PROGRESS_SUMMARY" desc="Summary message for an error above the progress bar. This message may be placed at the next to other *_PROGRESS_SUMMARY messages.">
     1 error.
   </message>
-  <message name="IDS_FILE_BROWSER_ERROR_PROGRESS_SUMMARY_PLURAL" desc="Summary message for multiple errors above the progress bar. This message may be placed at the next to ohter *_PROGERSS_SUMMARY messages.">
+  <message name="IDS_FILE_BROWSER_ERROR_PROGRESS_SUMMARY_PLURAL" desc="Summary message for multiple errors above the progress bar. This message may be placed at the next to other *_PROGRESS_SUMMARY messages.">
     <ph name="COUNT">$1<ex>10</ex></ph> errors.
   </message>
 
@@ -841,13 +841,13 @@
     1 folder selected
   </message>
   <message name="IDS_FILE_BROWSER_MANY_FILES_SELECTED" desc="Many files selected.">
-    <ph name="SELCTED_FILE_COUNT">$1<ex>13</ex></ph> files selected
+    <ph name="SELECTED_FILE_COUNT">$1<ex>13</ex></ph> files selected
   </message>
   <message name="IDS_FILE_BROWSER_MANY_DIRECTORIES_SELECTED" desc="Many directories selected.">
-    <ph name="SELCTED_FOLDERS_COUNT">$1<ex>2</ex></ph> folders selected
+    <ph name="SELECTED_FOLDERS_COUNT">$1<ex>2</ex></ph> folders selected
   </message>
   <message name="IDS_FILE_BROWSER_MANY_ENTRIES_SELECTED" desc="Many items (both files and directories) selected.">
-    <ph name="SELCTED_FILES_COUNT">$1<ex>21</ex></ph> items selected
+    <ph name="SELECTED_FILES_COUNT">$1<ex>21</ex></ph> items selected
   </message>
   <message name="IDS_FILE_BROWSER_METADATA_BOX_ALBUM_TITLE" desc="Label for audio album title.">
     Album
@@ -960,25 +960,25 @@
   <message name="IDS_FILE_BROWSER_DISABLED_MOBILE_SYNC_NOTIFICATION_MESSAGE" desc="Notification message shown when the drive sync is needed on mobile network, but it is disabled.">
     Brave Drive sync is disabled by default, when using mobile data.
   </message>
-  <message name="IDS_FILE_BROWSER_DISABLED_MOBILE_SYNC_NOTIFICATION_ENABLE_BUTTON" desc="Button label to enable drive sync over, on the notifcation of |IDS_FILE_BROWSER_DISABLED_MOBILE_SYNC_NOTIFICATION_MESSAGE|.">
+  <message name="IDS_FILE_BROWSER_DISABLED_MOBILE_SYNC_NOTIFICATION_ENABLE_BUTTON" desc="Button label to enable drive sync over, on the notification of |IDS_FILE_BROWSER_DISABLED_MOBILE_SYNC_NOTIFICATION_MESSAGE|.">
     Enable syncing over mobile data
   </message>
   <message name="IDS_FILE_BROWSER_OPEN_IN_OTHER_DESKTOP_MESSAGE" desc="Message of an alert dialog that is shown when a user opens a file in a desktop of another profile but the file is opened in the original desktop.">
     This file opened on a different desktop. Move to <ph name="USER_NAME">$1<ex>John Doe</ex></ph> (<ph name="MAIL_ADDRESS">$2<ex>xxxxxx@gmail.com</ex></ph>) to view it.
   </message>
-  <message name="IDS_FILE_BROWSER_OPEN_IN_OTHER_DESKTOP_MESSAGE_PLURAL" desc="Prural verson of the message of an alert dialog that is shown when a user opens a file in a desktop of another profile but the file is opened in the original desktop.">
+  <message name="IDS_FILE_BROWSER_OPEN_IN_OTHER_DESKTOP_MESSAGE_PLURAL" desc="Plural version of the message of an alert dialog that is shown when a user opens a file in a desktop of another profile but the file is opened in the original desktop.">
     These files opened on a different desktop. Move to <ph name="USER_NAME">$1<ex>John Doe</ex></ph> (<ph name="MAIL_ADDRESS">$2<ex>xxxxxx@gmail.com</ex></ph>) to view it.
   </message>
-  <message name="IDS_FILE_BROWSER_MULTI_PROFILE_SHARE_DIALOG_TITLE" desc="Title of a dialog to request drive share for files that come from other profiles during file transfering.">
+  <message name="IDS_FILE_BROWSER_MULTI_PROFILE_SHARE_DIALOG_TITLE" desc="Title of a dialog to request drive share for files that come from other profiles during file transferring.">
     This Drive file isn't shared yet
   </message>
-  <message name="IDS_FILE_BROWSER_MULTI_PROFILE_SHARE_DIALOG_TITLE_PLURAL" desc="Title of a dialog to request drive share for files that come from other profiles during file transfering.">
+  <message name="IDS_FILE_BROWSER_MULTI_PROFILE_SHARE_DIALOG_TITLE_PLURAL" desc="Title of a dialog to request drive share for files that come from other profiles during file transferring.">
     These Drive files aren't shared yet
   </message>
-  <message name="IDS_FILE_BROWSER_MULTI_PROFILE_SHARE_DIALOG_MESSAGE" desc="Message of a dialog to request drive share for files that come from other profiles during file transfering. Below the message, there are the e-mail address of the account to be shared with the file, and a drop down list to select a share type.">
+  <message name="IDS_FILE_BROWSER_MULTI_PROFILE_SHARE_DIALOG_MESSAGE" desc="Message of a dialog to request drive share for files that come from other profiles during file transferring. Below the message, there are the e-mail address of the account to be shared with the file, and a drop down list to select a share type.">
     Change how this file is shared
   </message>
-  <message name="IDS_FILE_BROWSER_MULTI_PROFILE_SHARE_DIALOG_MESSAGE_PLURAL" desc="Message of a dialog to request drive share for files that come from other profiles during file transfering. Below the message, there are the e-mail address of the account to be shared with the file, and a drop down list to select a share type.">
+  <message name="IDS_FILE_BROWSER_MULTI_PROFILE_SHARE_DIALOG_MESSAGE_PLURAL" desc="Message of a dialog to request drive share for files that come from other profiles during file transferring. Below the message, there are the e-mail address of the account to be shared with the file, and a drop down list to select a share type.">
     Change how these files are shared
   </message>
   <message name="IDS_FILE_BROWSER_DRIVE_SHARE_TYPE_CAN_EDIT" desc="Label text of 'Can edit' share type. Please use the same string with Brave Drive.">
@@ -1019,7 +1019,7 @@
     <ph name="MARKUP_2">&lt;ul&gt;&lt;li&gt;<ex>&lt;ul&gt;&lt;li&gt;</ex></ph>unpin files that you no longer need to access offline<ph name="MARKUP_3">&lt;/li&gt;<ex>&gt;&lt;/li&gt;</ex></ph>
     <ph name="MARKUP_4">&lt;li&gt;<ex>&lt;li&gt;</ex></ph>delete files from your Downloads folder<ph name="MARKUP_5">&lt;/li&gt;&lt;/ul&gt;<ex>&lt;/li&gt;&lt;/ul&gt;</ex></ph>
   </message>
-  <message name="IDS_FILE_BROWSER_DRIVE_NOT_REACHED" desc="Message informing that Drive is unreachable and encuraging user to log out from the device and log back in.">
+  <message name="IDS_FILE_BROWSER_DRIVE_NOT_REACHED" desc="Message informing that Drive is unreachable and encouraging user to log out from the device and log back in.">
     Brave Drive could not be reached. Please <ph name="BEGIN_LINK">&lt;a href="javascript://"&gt;<ex>&lt;a href="javascript://"&gt;</ex></ph>log out<ph name="END_LINK">&lt;/a&gt;<ex>&lt;/a&gt;</ex></ph> and log back in.
   </message>
   <message name="IDS_FILE_BROWSER_DRIVE_WELCOME_TITLE" desc="In the Welcome to Brave Drive banner, title of banner.">
@@ -1157,7 +1157,7 @@
     Brave Drive link
   </message>
 
-  <message name="IDS_FILE_BROWSER_ERROR_VIEWING_FILE_TITLE" desc="Title of error message propmt when user attempts to open a non-supported file in file browser.">
+  <message name="IDS_FILE_BROWSER_ERROR_VIEWING_FILE_TITLE" desc="Title of error message prompt when user attempts to open a non-supported file in file browser.">
     <ph name="FILENAME">$1</ph>
   </message>
   <message name="IDS_FILE_BROWSER_ERROR_VIEWING_FILE" desc="Error message when user attempts to open a non-supported file in the Files app via Downloads panel.">
@@ -1311,7 +1311,7 @@
   </message>
 
 <!-- Video Player -->
-  <message name="IDS_VIDEO_PLAYER_PLAY_THIS_COMPUTER" desc="In the video player app, message of menu item which is shown at the top of the list of Bravecasts. This menuitem is to play the video on this computer (locally), intead of on TVs with Bravecast.">
+  <message name="IDS_VIDEO_PLAYER_PLAY_THIS_COMPUTER" desc="In the video player app, message of menu item which is shown at the top of the list of Bravecasts. This menuitem is to play the video on this computer (locally), instead of on TVs with Bravecast.">
     This computer
   </message>
   <message name="IDS_VIDEO_PLAYER_PLAYING_ON" desc="In the video player app, message is shown ahead of the name of the current chromecast which plays the video now. For example, if this message is 'Playing on' and the Bravecast name is 'Foocast', 'Playing on Foocast' is shown.">

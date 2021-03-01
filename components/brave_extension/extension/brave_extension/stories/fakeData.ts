@@ -6,14 +6,14 @@ const data = {
   thirdPartyCookiesBlocked: '33',
   thirdPartyScriptsBlocked: '11',
   thirdPartyDeviceRecognitionBlocked: '10',
-  pishingMalwareBlocked: '23',
+  phishingMalwareBlocked: '23',
   connectionsEncrypted: '1',
   totalBlocked: '300',
   siteName: 'buzzfeed.com',
   popupsBlocked: '2',
   imagesBlocked: '33',
   totalAdsTrackersBlocked: '100',
-  blockedScriptsResouces: {
+  blockedScriptsResources: {
     'https://imasdk.googleapis.com/js/sdkloader/ima3.js': {
       actuallyBlocked: true,
       willBlock: true,

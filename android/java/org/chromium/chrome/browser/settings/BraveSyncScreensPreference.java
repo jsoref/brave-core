@@ -296,7 +296,7 @@ public class BraveSyncScreensPreference extends BravePreferenceFragment
                                     R.id.brave_sync_device_text);
                             if (null != textView) {
                                 if (device.mIsCurrentDevice) {
-                                    // Highlight curret device
+                                    // Highlight current device
                                     textView.setTextColor(ApiCompatibilityUtils.getColor(
                                             getActivity().getResources(),
                                             R.color.brave_theme_color));
@@ -549,9 +549,9 @@ public class BraveSyncScreensPreference extends BravePreferenceFragment
             text = title + "\n\n";
         }
         text += message;
-        SpannableString formatedText = new SpannableString(text);
-        formatedText.setSpan(new RelativeSizeSpan(1.25f), 0, title.length(), 0);
-        textView.setText(formatedText);
+        SpannableString formattedText = new SpannableString(text);
+        formattedText.setSpan(new RelativeSizeSpan(1.25f), 0, title.length(), 0);
+        textView.setText(formattedText);
     }
 
     /** OnClickListener for the clear button. We show an alert dialog to confirm the action */
@@ -756,7 +756,7 @@ public class BraveSyncScreensPreference extends BravePreferenceFragment
         }
     }
 
-    private void showMainSyncScrypt() {
+    private void showMainSyncScript() {
         if (null != mScrollViewSyncInitial) {
             adjustWidth(mScrollViewSyncInitial, false);
             mScrollViewSyncInitial.setVisibility(View.VISIBLE);
@@ -942,7 +942,7 @@ public class BraveSyncScreensPreference extends BravePreferenceFragment
                     public void run() {
                         showEndDialog(
                                 getResources().getString(R.string.brave_sync_wrong_qrcode_error));
-                        showMainSyncScrypt();
+                        showMainSyncScript();
                     }
                 });
                 return;

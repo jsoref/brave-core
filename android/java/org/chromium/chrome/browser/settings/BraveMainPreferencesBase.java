@@ -36,7 +36,7 @@ import org.chromium.ui.base.DeviceFormFactor;
 
 import java.util.HashMap;
 
-// This exculdes some settings in main settings screen.
+// This excludes some settings in main settings screen.
 public class BraveMainPreferencesBase extends BravePreferenceFragment {
     private static final String PREF_STANDARD_SEARCH_ENGINE = "standard_search_engine";
     private static final String PREF_PRIVATE_SEARCH_ENGINE = "private_search_engine";
@@ -49,7 +49,7 @@ public class BraveMainPreferencesBase extends BravePreferenceFragment {
     private static final String PREF_ACCESSIBILITY = "accessibility";
     private static final String PREF_CONTENT_SETTINGS = "content_settings";
     private static final String PREF_ABOUT_CHROME = "about_chrome";
-    private static final String PREF_BACKGROUND_IMAGES = "backgroud_images";
+    private static final String PREF_BACKGROUND_IMAGES = "background_images";
     private static final String PREF_BRAVE_REWARDS = "brave_rewards";
     private static final String PREF_HOMEPAGE = "homepage";
     private static final String PREF_USE_CUSTOM_TABS = "use_custom_tabs";
@@ -80,7 +80,7 @@ public class BraveMainPreferencesBase extends BravePreferenceFragment {
     @Override
     public void onResume() {
         super.onResume();
-        // Run updateBravePreferences() after fininshing MainPreferences::updatePreferences().
+        // Run updateBravePreferences() after finishing MainPreferences::updatePreferences().
         // Otherwise, some prefs could be added after finishing updateBravePreferences().
         new Handler().post(() -> updateBravePreferences());
     }

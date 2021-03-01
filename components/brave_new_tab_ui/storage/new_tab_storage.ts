@@ -89,7 +89,7 @@ export const defaultState: NewTab.State = {
     btcPrice: '0.00',
     btcVolume: '0',
     assetDepositInfo: {},
-    assetDepoitQRCodeSrcs: {},
+    assetDepositQRCodeSrcs: {},
     convertAssets: {},
     accountBTCValue: '0.00',
     accountBTCUSDValue: '0.00',
@@ -182,7 +182,7 @@ export const migrateStackWidgetSettings = (state: NewTab.State) => {
 }
 
 // Ensure any new stack widgets introduced are put behind
-// the others, and not re-added unecessarily if removed
+// the others, and not re-added unnecessarily if removed
 // at one point.
 export const addNewStackWidget = (state: NewTab.State) => {
   defaultState.widgetStackOrder.map((widget: NewTab.StackWidget) => {
@@ -253,7 +253,7 @@ export const load = (): NewTab.State => {
   if (data) {
     try {
       storedState = JSON.parse(data)
-      // add defaults for non-peristant data
+      // add defaults for non-persistent data
       state = {
         ...state,
         ...storedState

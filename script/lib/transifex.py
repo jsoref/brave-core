@@ -79,7 +79,7 @@ def create_xtb_format_translation_tag(fingerprint, string_value):
     string_tag.set('id', str(fingerprint))
     if string_value.count('<') != string_value.count('>'):
         assert False, 'Warning: Unmatched < character, consider fixing on ' \
-                      ' Trasifex, force encoding the following string:' + string_value
+                      ' Transifex, force encoding the following string:' + string_value
     string_tag.text = string_value
     string_tag.tail = '\n'
     return string_tag
@@ -350,7 +350,7 @@ def get_strings_dict_from_xml_content(xml_content):
 def get_strings_dict_from_xtb_file(xtb_file_path):
     """Obtains a dictionary mapping the string fingerprint to its value for
     an xtb file"""
-    # No file exists yet, so just returna an empty dict
+    # No file exists yet, so just return an empty dict
     if not os.path.isfile(xtb_file_path):
         return {}
     translation_tags = lxml.etree.parse(
@@ -402,7 +402,7 @@ def upload_source_string_file_to_transifex(source_file_path, filename,
 
 
 def clean_triple_quoted_string(val):
-    """Grit parses out first 3 and last 3 isngle quote chars if they exist."""
+    """Grit parses out first 3 and last 3 single quote chars if they exist."""
     val = val.strip()
     if val.startswith("'''"):
         val = val[3:]
@@ -506,9 +506,9 @@ def is_translateable_string(grd_file_path, message_tag):
 
 
 def get_grd_strings(grd_file_path, validate_tags=True):
-    """Obtains a tubple of (name, value, FP) for each string in a GRD file"""
+    """Obtains a tuple of (name, value, FP) for each string in a GRD file"""
     strings = []
-    # Keep track of duplicate mesasge_names
+    # Keep track of duplicate message_names
     dupe_dict = defaultdict(int)
     all_message_tags = get_grd_message_string_tags(grd_file_path)
     for message_tag in all_message_tags:
@@ -648,13 +648,13 @@ def check_for_chromium_upgrade_extra_langs(src_root, grd_file_path):
 
 
 def get_transifex_string_hash(string_name):
-    """Obains transifex string hash for the passed string."""
+    """Obtains transifex string hash for the passed string."""
     key = string_name.encode('utf-8')
     return str(md5(':'.join([key, ''])).hexdigest())
 
 
 def braveify(string_value):
-    """Replace Chromium branded strings with Brave beranded strings."""
+    """Replace Chromium branded strings with Brave branded strings."""
     return (string_value.replace('Chrome', 'Brave')
             .replace('Chromium', 'Brave')
             .replace('Google', 'Brave')
@@ -940,7 +940,7 @@ def pull_xtb_without_transifex(grd_file_path, brave_source_root):
             # Use our fp, when exists.
             old_fp = node.attrib['id']
             # It's possible for an xtb string to not be in our GRD.
-            # This happens, for exmaple, with Chrome OS strings which
+            # This happens, for example, with Chrome OS strings which
             # we don't process files for.
             if old_fp in fp_map:
                 new_fp = fp_map.get(old_fp)
